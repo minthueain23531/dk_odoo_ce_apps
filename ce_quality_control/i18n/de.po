@@ -1,0 +1,1626 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ce_quality_control
+#
+# Translators:
+# Martin Trigaux, 2022
+# Wolfgang Taferner, 2022
+# Larissa Manderfeld, 2023
+#
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:45+0000\n"
+"PO-Revision-Date: 2026-04-24 09:52+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
+"ce_quality_control/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "% of the time"
+msgstr "% der Zeit"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+msgid "%(product_name)s is not in Picking %(picking_name)s"
+msgstr "%(product_name)s ist nicht in Kommissionierung %(picking_name)s"
+
+#. module: ce_quality_control
+#: model:ir.actions.report,print_report_name:ce_quality_control.quality_check_report
+#: model:ir.actions.report,print_report_name:ce_quality_control.quality_check_report_internal
+msgid "'Worksheet_%s' % object.name"
+msgstr "'Arbeitsblatt_%s' % object.name"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "15.3 cm"
+msgstr "15,3 cm"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domain alias\"/>&amp;nbsp;"
+msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domainalias\"/>&amp;nbsp;"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistics\" title=\"Statistics\"/>"
+msgstr ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistics\" title=\"Statistiken\"/>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+msgid "<span class=\"o_stat_text text-danger\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text text-danger\">Qualitätsprüfungen</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+msgid "<span class=\"o_stat_text text-success\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text text-success\">Qualitätsprüfungen</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid ""
+"<span class=\"o_stat_text\">AVG:</span>\n"
+"                        <span class=\"o_stat_text\">STD:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">DURCHSCHN:</span>\n"
+"                        <span class=\"o_stat_text\">STD:</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_product_form_view_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_template_form_view_quality_control
+msgid ""
+"<span class=\"o_stat_text\">Pass:</span>\n"
+"                        <span class=\"o_stat_text\">Fail:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Bestanden:</span>\n"
+"                        <span class=\"o_stat_text\">Fehlgeschlagen:</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+msgid "<span class=\"o_stat_text\">Quality Alert</span>"
+msgstr "<span class=\"o_stat_text\">Qualitätsalarm</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_production_lot_view_form
+msgid "<span class=\"o_stat_text\">Quality Alerts:</span>"
+msgstr "<span class=\"o_stat_text\">Qualitätsalarme:</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "<span class=\"o_stat_text\">Quality Check</span>"
+msgstr "<span class=\"o_stat_text\">Qualitätsprüfung</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+msgid "<span class=\"o_stat_text\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text\">Qualitätsprüfungen</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "<span>% of products</span>"
+msgstr "<span>% der Produkte</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "<span>Test </span>"
+msgstr "<span>Test </span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "<span>from </span>"
+msgstr "<span>von </span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "<span>to </span>"
+msgstr "<span>bis </span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Lot/Serial Number: </strong>"
+msgstr "<strong>Los-/Seriennummer:</strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Measure: </strong>"
+msgstr "<strong>Wert: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Notes: </strong>"
+msgstr "<strong>Notizen: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Product: </strong>"
+msgstr "<strong>Produkt: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Test Type: </strong>"
+msgstr "<strong>Testtyp: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Tested by: </strong>"
+msgstr "<strong>Getestet von: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Tested on: </strong>"
+msgstr "<strong>Getestet am:</strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Transfer: </strong>"
+msgstr "<strong>Transfer: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "<strong>Warning: </strong>"
+msgstr "<strong>Warnung: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+msgid "Accept Emails From"
+msgstr "E-Mails annehmen von"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_tag_action
+msgid "Add a new tag"
+msgstr "Ein neues Stichwort hinzufügen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__additional_note
+msgid "Additional Note"
+msgstr "Weitere Anmerkungen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__additional_note
+msgid "Additional remarks concerning this check."
+msgstr "Zusätzliche Bemerkungen zu dieser Prüfung."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_alert_ids
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Alerts"
+msgstr "Alarme"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__all
+msgid "All"
+msgstr "Alle"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__pass
+msgid "All checks passed"
+msgstr "Alle Prüfungen bestanden"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "All parameters passed."
+msgstr "Alle Parameter bestanden."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__allowed_product_ids
+msgid "Allowed Product"
+msgstr "Erlaubte Produkte"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+msgid "Archived"
+msgstr "Archiviert"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__average
+msgid "Average"
+msgstr "Durchschnitt"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Back"
+msgstr "Zurück"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__check_ids
+msgid "Check"
+msgstr "Prüfung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__check_state
+msgid "Check State"
+msgstr "Prüfstatus"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_tree
+msgid "Checked By"
+msgstr "Geprüft von"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_tree
+msgid "Checked Date"
+msgstr "Prüfdatum"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__check_ids
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__check_ids
+msgid "Checks"
+msgstr "Prüfungen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+msgid "Checks In Progress"
+msgstr "Prüfungen in Bearbeitung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__company_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__company_id
+msgid "Company"
+msgstr "Unternehmen"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_configuration
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Confirm Measure"
+msgstr "Wert bestätigen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_type
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "Control Frequency"
+msgstr "Prüfhäufigkeit"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Control Person"
+msgstr "Prüfer"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+msgid "Control Point"
+msgstr "Kontrollpunkt"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_point_action
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_control_points
+msgid "Control Points"
+msgstr "Kontrollpunkte"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__measure_on
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__measure_on
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_on
+msgid "Control per"
+msgstr "Kontrolle je"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_point_kanban
+msgid "Control per:"
+msgstr "Kontrolle je:"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Correct Measure"
+msgstr "Korrekter Wert"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Corrective Actions"
+msgstr "Korrekturmaßnahmen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Create Alert"
+msgstr "Alarm erstellen"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_action_check
+msgid "Create a new quality alert"
+msgstr "Neuen Qualitätsalarm erstellen"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_stage_action
+msgid "Create a new quality alert stage"
+msgstr "Neue Qualitätsalarmstufe erstellen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__create_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__create_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__create_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__create_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__current_check_id
+msgid "Current Check"
+msgstr "Aktuelle Prüfung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__current_revision_uuid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__current_revision_uuid
+msgid "Current Revision Uuid"
+msgstr "UUID der aktuellen Revision"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_spreadsheet_template_view_list
+msgid "Data"
+msgstr "Daten"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_unit__day
+msgid "Days"
+msgstr "Tage"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__uom_id
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "Standardmaßeinheit, die für alle Lagervorgänge verwendet wird."
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_main
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_team
+msgid ""
+"Define Quality Control Points in order to automatically generate\n"
+"              quality checks at the right logistic operation: transfers, "
+"manufacturing orders."
+msgstr ""
+"Definieren Sie Qualitätskontrollpunkte, um automatisch\n"
+"Qualitätsprüfungen bei den richtigen logistischen Vorgängen zu generieren: "
+"Transfers, Fertigungsaufträge."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__testing_percentage_within_lot
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__testing_percentage_within_lot
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__testing_percentage_within_lot
+msgid "Defines the percentage within a lot that should be tested"
+msgstr ""
+"Legt den Prozentsatz innerhalb eines Loses fest, das getestet werden soll"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Describe the corrective actions you did..."
+msgstr "Beschreiben Sie die vorgenommenen Korrekturmaßnahmen …"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Describe the preventive actions you did..."
+msgstr "Beschreiben Sie die vorgenommenen präventive Maßnahmen …"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Description of the issue..."
+msgstr "Beschreibung des Problems …"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__is_lot_tested_fractionally
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__is_lot_tested_fractionally
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__is_lot_tested_fractionally
+msgid "Determines if only a fraction of the lot should be tested"
+msgstr "Bestimmt, ob nur ein Teil des Loses getestet werden soll"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Discard"
+msgstr "Verwerfen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_alert__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet_internal__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__display_thumbnail
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__display_thumbnail
+msgid "Display Thumbnail"
+msgstr "Vorschaubild anzeigen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_spreadsheet_template_view_list
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+msgid "Email Alias"
+msgstr "E-Mail-Alias"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__product_tracking
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__product_tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr ""
+"Stellen Sie die Rückverfolgbarkeit eines lagerfähigen Produkts in Ihrem "
+"Lager sicher."
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_success__fail
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Fail"
+msgstr "Fehlgeschlagen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Failed Quantity"
+msgstr "Fehlgeschlagene Menge"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__failure_location_id
+msgid "Failure Location"
+msgstr "Fehlerort"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__potential_failure_location_ids
+msgid "Failure Locations"
+msgstr "Fehlerorte"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__failure_message
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__failure_message
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__failure_message
+msgid "Failure Message"
+msgstr "Fehlermitteilung"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "Frequency"
+msgstr "Häufigkeit"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_unit_value
+msgid "Frequency Unit Value"
+msgstr "Wert der Frequenzeinheit"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "Future Activities"
+msgstr "Anstehende Aktivitäten"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__hide_picking_id
+msgid "Hide Picking"
+msgstr "Kommissionierung ausblenden"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__hide_production_id
+msgid "Hide Production"
+msgstr "Produktion ausblenden"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__hide_repair_id
+msgid "Hide Repair"
+msgstr "Reparatur ausblenden"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_alert__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet_internal__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__id
+msgid "ID"
+msgstr "ID"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__potential_failure_location_ids
+msgid ""
+"If quality check fails, a destination location is chosen from this list for\n"
+"- each failed specific product quantity if control is per quantity\n"
+" /- all quantities of a product if control is per product\n"
+" /- all quantities of products in the operation if control is per operation"
+msgstr ""
+"Wenn die Qualitätsprüfung nicht bestanden wurde, wird ein Ziellagerort für\n"
+"- jede nicht bestandene Produktmenge (wenn Kontrolle ist je Menge)\n"
+" /- alle Mengen eines Produkts (wenn Kontrolle ist je Produkt)\n"
+" /- alle Mengen von Produkten im Vorgang (wenn Kontrolle ist je Vorgang)\n"
+"aus dieser Liste ausgewählt."
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "In Progress"
+msgstr "In Bearbeitung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__move_line_id
+msgid ""
+"In case of Quality Check by Quantity, Move Line on which the Quality Check "
+"applies"
+msgstr ""
+"Im Falle einer Qualitätsprüfung nach Menge, verschieben Sie die Zeile, auf "
+"die sich die Qualitätsprüfung bezieht."
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Instructions"
+msgstr "Anleitung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__is_last_check
+msgid "Is Last Check"
+msgstr "Ist letzte Prüfung"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "John Doe"
+msgstr "Max Mustermann"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "LT-00045"
+msgstr "LT-00045"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Laptop XYZ"
+msgstr "Laptop XYZ"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__write_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__write_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__write_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__write_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "Late Activities"
+msgstr "Verspätete Aktivitäten"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__lot_line_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__lot_line_id
+msgid "Lot Line"
+msgstr "Loszeile"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__is_lot_tested_fractionally
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__is_lot_tested_fractionally
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__is_lot_tested_fractionally
+msgid "Lot Tested Fractionally"
+msgstr "Los teilweise geprüft"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Lot/SN"
+msgstr "Los/SN"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_lot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__lot_ids
+msgid "Lot/Serial"
+msgstr "Los/Serie"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__lot_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__lot_name
+msgid "Lot/Serial Number Name"
+msgstr "Name der Los-/Seriennummer"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.quality_control_menu_traceability
+msgid "Lots/Serial Numbers"
+msgstr "Los-/Seriennummern"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__tolerance_max
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__tolerance_max
+msgid "Max Tolerance"
+msgstr "Max. Toleranz"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__measure
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__measure
+#: model:quality.point.test_type,name:ce_quality_control.test_type_measure
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Measure"
+msgstr "Messung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_unit
+msgid "Measure Frequency Unit"
+msgstr "Einheit für Werteintervall"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__measure_success
+msgid "Measure Success"
+msgstr "Erfolg messen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "Message If Failure"
+msgstr "Mitteilung bei Fehler"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__tolerance_min
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__tolerance_min
+msgid "Min Tolerance"
+msgstr "Min. Toleranz"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_unit__month
+msgid "Months"
+msgstr "Monate"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__name
+msgid "Name"
+msgstr "Name"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__nb_checks
+msgid "Nb Checks"
+msgstr "Anzahl Prüfungen"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+msgid "New"
+msgstr "Neu"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Next"
+msgstr "Weiter"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__no_checks
+msgid "No checks"
+msgstr "Keine Prüfungen"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_spc
+msgid "No data yet!"
+msgstr "Noch keine Daten vorhanden!"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_success__none
+msgid "No measure"
+msgstr "Keine Werte"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_action_report
+msgid "No quality alert"
+msgstr "Kein Qualitätsalarm"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_main
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_team
+msgid "No quality check found"
+msgstr "Keine Qualitätsprüfung gefunden"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_report
+msgid "No quality checks"
+msgstr "Keine Qualitätsprüfungen"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_point_action
+msgid "No quality control point found"
+msgstr "Kein Qualitätskontrollpunkt gefunden"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__norm
+msgid "Norm"
+msgstr "Norm"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__norm_unit
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__norm_unit
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__norm_unit
+msgid "Norm Unit"
+msgstr "Normeinheit"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__note
+msgid "Note"
+msgstr "Notiz"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Notes"
+msgstr "Notizen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "OK"
+msgstr "OK"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__on_demand
+msgid "On-demand"
+msgstr "Auf Anfrage"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Open spreadsheet"
+msgstr "Tabellenkalkulation öffnen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_on__operation
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_on__operation
+msgid "Operation"
+msgstr "Vorgang"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__measure_on
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__measure_on
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__measure_on
+msgid ""
+"Operation = One quality check is requested at the operation level.\n"
+"                  Product = A quality check is requested per product.\n"
+"                 Quantity = A quality check is requested for each new "
+"product quantity registered, with partial quantity checks also possible."
+msgstr ""
+"Vorgang = Eine Qualitätsprüfung wird auf dieser Vorgangsebene gefragt.\n"
+"                  Produkt = Pro Produkt wird eine Qualitätsprüfung "
+"verlangt.\n"
+"                 Menge = Für jede neu erfasste Produktmenge wird eine "
+"Qualitätsprüfung verlangt, bei der auch Teilqualitätsprüfungen möglich sind."
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_dashboard
+msgid "Overview"
+msgstr "Übersicht"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "Partial Test"
+msgstr "Teiltest"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Partner"
+msgstr "Partner"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_success__pass
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Pass"
+msgstr "Bestanden"
+
+#. module: ce_quality_control
+#: model:quality.point.test_type,name:ce_quality_control.test_type_passfail
+msgid "Pass - Fail"
+msgstr "Bestanden - Fehlgeschlagen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Passed"
+msgstr "Bestanden"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_check_todo
+msgid "Pending checks"
+msgstr "Anstehende Prüfungen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_value
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__periodical
+msgid "Periodically"
+msgstr "Regelmäßig"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__picture
+msgid "Picture"
+msgstr "Bild"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+msgid "Picture Uploaded"
+msgstr "Bild hochgeladen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__position_current_check
+msgid "Position Current Check"
+msgstr "Position der aktuellen Prüfung"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+msgid "Preventive Actions"
+msgstr "Präventive Maßnahmen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Previous"
+msgstr "Zurück"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_product_template
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__product_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__product_id
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_on__product
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_on__product
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "Product"
+msgstr "Produkt"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "Produktbewegungen (Lagerbuchung)"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_product_product
+msgid "Product Variant"
+msgstr "Produktvariante"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.quality_control_menu_product_variant
+msgid "Product Variants"
+msgstr "Produktvarianten"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.quality_control_menu_product
+#: model:ir.ui.menu,name:ce_quality_control.quality_product_menu_product_template
+msgid "Products"
+msgstr "Produkte"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "QC-00123"
+msgstr "QP-00123"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_failed
+msgid "Qty Failed"
+msgstr "Fehlgeschlagene Menge"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_root
+msgid "Quality"
+msgstr "Qualität"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#: model:ir.actions.server,name:ce_quality_control.stock_picking_action_quality_alert
+#: model:ir.model,name:ce_quality_control.model_quality_alert
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_calendar
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_search_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+msgid "Quality Alert"
+msgstr "Qualitätsalarm"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_graph
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_pivot
+msgid "Quality Alert Analysis"
+msgstr "Qualitätsalarmanalyse"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_alert_count
+msgid "Quality Alert Count"
+msgstr "Anzahl Qualitätsalarme"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__quality_alert_qty
+msgid "Quality Alert Qty"
+msgstr "Qualitätsalarmmenge"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_stage_action
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_config_alert_stage
+msgid "Quality Alert Stages"
+msgstr "Qualitätsalarmphasen"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_stage_action
+msgid ""
+"Quality Alert stages define the different steps a quality alert should go "
+"through."
+msgstr ""
+"Qualitätsalarmphasen definieren die verschiedenen Schritte, die ein "
+"Qualitätsalarm durchlaufen sollte."
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_action_check
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_action_team
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_alert
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+msgid "Quality Alerts"
+msgstr "Qualitätsalarme"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_action_report
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_alert_report
+msgid "Quality Alerts Analysis"
+msgstr "Qualitätsalarmanalyse"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#: model:ir.actions.act_window,name:ce_quality_control.action_quality_check_wizard
+#: model:ir.actions.server,name:ce_quality_control.stock_picking_action_quality_check_on_demand
+#: model:ir.model,name:ce_quality_control.model_quality_check
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_stock_move_line_detailed_operation_tree_inherit_quality
+msgid "Quality Check"
+msgstr "Qualitätsprüfung"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_report
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_check_report
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_graph
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_pivot
+msgid "Quality Check Analysis"
+msgstr "Qualitätsprüfungsanalyse"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_check_fail
+msgid "Quality Check Fail"
+msgstr "Fehlgeschlagene Qualitätsprüfung"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/wizard/quality_check_wizard.py:0
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Quality Check Failed"
+msgstr "Qualitätsprüfung fehlgeschlagen"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/wizard/quality_check_wizard.py:0
+msgid "Quality Check Failed for %(product_name)s"
+msgstr "Qualitätsprüfung fehlgeschlagen für %(product_name)s"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Quality Check Picture"
+msgstr "Bild der Qualitätsprüfung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__quality_check_qty
+msgid "Quality Check Qty"
+msgstr "Anzahl Qualitätsprüfungen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Quality Check:"
+msgstr "Qualitätsprüfung:"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_main
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_picking
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_production_lot
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_team
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_checks
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_search_inherit_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_production_lot_form_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Quality Checks"
+msgstr "Qualitätsprüfungen"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_spc
+msgid "Quality Checks SPC"
+msgstr "Qualitätsprüfungen SPC"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_control
+msgid "Quality Control"
+msgstr "Qualitätskontrolle"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_point
+msgid "Quality Control Point"
+msgstr "Qualitätskontrollpunkt"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__quality_control_point_qty
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__quality_control_point_qty
+msgid "Quality Control Point Qty"
+msgstr "Anzahl Qualitätskontrollpunkte"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__quality_fail_qty
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__quality_fail_qty
+msgid "Quality Fail Qty"
+msgstr "Mg. fehlgeschlagener Qualtiätskontrollen"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_team_action
+msgid "Quality Overview"
+msgstr "Qualitätsübersicht"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__quality_pass_qty
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__quality_pass_qty
+msgid "Quality Pass Qty"
+msgstr "Mg. bestandener Qualtiätskontrollen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_product_form_view_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_template_form_view_quality_control
+msgid "Quality Points"
+msgstr "Qualitätspunkte"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_spreadsheet_template_action_config
+#: model:ir.ui.menu,name:ce_quality_control.menu_config_quality_spreadsheet_template
+msgid "Quality Spreadsheet Templates"
+msgstr "Tabellenkalkulationsvorlagen für Qualität"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_tag_action
+#: model:ir.ui.menu,name:ce_quality_control.menu_config_quality_tags
+msgid "Quality Tags"
+msgstr "Qualitätsstichwörter"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_team_action_config
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_config_alert_team
+msgid "Quality Teams"
+msgstr "Qualitätsteams"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_team_action
+msgid ""
+"Quality Teams group the different quality alerts/checks\n"
+"              according to the roles (teams) that need them."
+msgstr ""
+"Qualitätsteams gruppieren die verschiedenen Qualitätsalarme/-prüfungen\n"
+"              entsprechend den Rollen (Teams), die sie benötigen."
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_report_quality_control_quality_worksheet_internal
+msgid "Quality Worksheet Internal Report"
+msgstr "Interner Bericht über Qualitätsarbeitsblatt"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_report_quality_control_quality_worksheet
+msgid "Quality Worksheet Report"
+msgstr "Bericht über Qualitätsarbeitsblatt"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_check_spreadsheet
+msgid "Quality check spreadsheet"
+msgstr "Tabellenkalkulation für Qualitätsprüfung"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_spreadsheet_template
+msgid "Quality check template spreadsheet"
+msgstr "Tabellenkalkulationsvorlage für Qualitätsprüfung"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_point_action
+msgid ""
+"Quality control points define the quality checks which should be\n"
+"              performed at each operation, for your different products."
+msgstr ""
+"Qualitätkontrollpunkte definieren die Qualitätsprüfungen, die\n"
+"bei jedem Arbeitsvorgang für Ihre verschiedenen Produkte durchgeführt werden "
+"sollten."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_line
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_line
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_on__move_line
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_on__move_line
+msgid "Quantity"
+msgstr "Menge"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_failed
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "Quantity Failed"
+msgstr "Fehlgeschlagene Menge"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_passed
+msgid "Quantity Passed"
+msgstr "Bestandene Menge"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_tested
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_tested
+msgid "Quantity Tested"
+msgstr "Getestete Menge"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_tested
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__qty_tested
+msgid "Quantity of product tested within the lot"
+msgstr "Menge des geprüften Produkts innerhalb des Loses"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_failed
+msgid "Quantity of product that failed the quality check"
+msgstr "Menge des Produkts, das die Qualitätsprüfung nicht bestanden hat"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_passed
+msgid "Quantity of product that passed the quality check"
+msgstr "Menge des Produkts, das die Qualitätsprüfung bestanden hat"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_to_test
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__qty_to_test
+msgid "Quantity of product to test within the lot"
+msgstr "Menge des zu prüfenden Produkts innerhalb des Loses"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_to_test
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_to_test
+msgid "Quantity to Test"
+msgstr "Zu testende Menge"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__random
+msgid "Randomly"
+msgstr "Zufällig"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__name
+msgid "Reference"
+msgstr "Referenz"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_reporting
+msgid "Reporting"
+msgstr "Berichtswesen"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+msgid "Responsible"
+msgstr "Verantwortlich"
+
+#. module: ce_quality_control
+#. odoo-javascript
+#: code:addons/ce_quality_control/static/src/spreadsheet_bundle/quality_check_spreadsheet_action/quality_check_spreadsheet_action.xml:0
+msgid "Save in"
+msgstr "Speichern in"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__show_lot_text
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__show_lot_text
+msgid "Show Lot Text"
+msgstr "Los-Text anzeigen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__fail
+msgid "Some checks failed"
+msgstr "Einige Prüfungen fehlgeschlagen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__in_progress
+msgid "Some checks to be done"
+msgstr "Einige durchzuführende Prüfungen"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__spreadsheet_id
+#: model:quality.point.test_type,name:ce_quality_control.test_type_spreadsheet
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Spreadsheet"
+msgstr "Tabellenkalkulation"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_data
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_data
+msgid "Spreadsheet Data"
+msgstr "Tabellenkalkulationsdaten"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_file_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_file_name
+msgid "Spreadsheet File Name"
+msgstr "Name der Tabellenkalkulationsdatei"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_revision_ids
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_revision_ids
+msgid "Spreadsheet Revision"
+msgstr "Revision der Tabellenkalkulation"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_snapshot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_snapshot
+msgid "Spreadsheet Snapshot"
+msgstr "Snapshot der Tabellenkalkulation"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__spreadsheet_template_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__spreadsheet_template_id
+msgid "Spreadsheet Template"
+msgstr "Tabellenkalkulationsvorlage"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_binary_data
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_binary_data
+msgid "Spreadsheet file"
+msgstr "Tabellenkalkulationsdatei"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_stage_view_tree
+msgid "Stage Name"
+msgstr "Phasenbezeichnung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__standard_deviation
+msgid "Standard Deviation"
+msgstr "Standardabweichung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__quality_state
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "Status"
+msgstr "Status"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_move
+msgid "Stock Move"
+msgstr "Lagerbuchung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__move_line_id
+msgid "Stock Move Line"
+msgstr "Lagerbuchungszeile"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__check_cell
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__spreadsheet_check_cell
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__check_cell
+msgid "Success cell"
+msgstr "Erfolgszelle"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_tag_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_tag_view_tree
+msgid "Tags"
+msgstr "Stichwörter"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+msgid "Team"
+msgstr "Team"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+msgid "Team Name"
+msgstr "Teamname"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_point_kanban
+msgid "Team:"
+msgstr "Team:"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_tree
+msgid "Teams"
+msgstr "Teams"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__test_type
+msgid "Technical name"
+msgstr "Technische Bezeichnung"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+msgid "Test Type"
+msgstr "Testtyp"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_tree
+msgid "Testing % Within Lot"
+msgstr "Geprüfter % In Los"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__testing_percentage_within_lot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__testing_percentage_within_lot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__testing_percentage_within_lot
+msgid "Testing Percentage Within Lot"
+msgstr "Geprüfter Prozentsatz in Los"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_spreadsheet__check_cell
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__spreadsheet_check_cell
+#: model:ir.model.fields,help:ce_quality_control.field_quality_spreadsheet_template__check_cell
+msgid ""
+"The check is successful if the success cell value is TRUE. If there are "
+"several sheets, specify which one you want to use (e.g. Sheet2!C4). If not "
+"specified, the first sheet is selected by default."
+msgstr ""
+"Die Prüfung ist erfolgreich, wenn der Wert der Erfolgszelle TRUE lautet. "
+"Wenn mehrere Blätter vorhanden sind, geben Sie an, welches Sie verwenden "
+"möchten (z. B. Sheet2!C4). Wenn nichts angegeben ist, wird standardmäßig das "
+"erste Blatt ausgewählt."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__measure_frequency_value
+msgid "The probability of each quality check being generated"
+msgstr "Die Wahrscheinlichkeit, dass jede Qualitätsprüfung generiert wird"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__thumbnail
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__thumbnail
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_alert__title
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__title
+msgid "Title"
+msgstr "Bezeichnung"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+msgid "Today Activities"
+msgstr "Heutige Aktivitäten"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+msgid "Tolerance"
+msgstr "Toleranz"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__product_tracking
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__product_tracking
+msgid "Tracking"
+msgstr "Nachverfolgung"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_picking
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_tree
+msgid "Transfer"
+msgstr "Transfer"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Transfer-987"
+msgstr "Transfer-987"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+msgid "Type"
+msgstr "Typ"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_point_kanban
+msgid "Type:"
+msgstr "Typ:"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__uom_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__uom_id
+msgid "Unit"
+msgstr "Einheit"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Unit of Measure"
+msgstr "Maßeinheit"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality_spreadsheet_template.py:0
+msgid "Untitled spreadsheet"
+msgstr "Unbenannte Tabellenkalkulation"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Validate"
+msgstr "Validieren"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Value near threshold."
+msgstr "Wert nah an Schwellenwert."
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_spreadsheet_template_view_list
+msgid "Visible to all"
+msgstr "Für alle sichtbar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+msgid "Visual Check"
+msgstr "Visuelle Prüfung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__warning_message
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__warning_message
+msgid "Warning Message"
+msgstr "Warnmeldung"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_unit__week
+msgid "Weeks"
+msgstr "Wochen"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_check_wizard
+msgid "Wizard for Quality Check Pop Up"
+msgstr "Assistent für Qualitätsprüfungs-Pop-Up"
+
+#. module: ce_quality_control
+#: model:ir.actions.report,name:ce_quality_control.quality_check_report
+msgid "Worksheet Report - External (PDF)"
+msgstr "Arbeitsblattbericht - Extern (PDF)"
+
+#. module: ce_quality_control
+#: model:ir.actions.report,name:ce_quality_control.quality_check_report_internal
+msgid "Worksheet Report - Internal (PDF)"
+msgstr "Arbeitsblattbericht - Intern (PDF)"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+msgid "Write quality check notes..."
+msgstr "Schreiben Sie Notizen zur Qualitätsprüfung ..."
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+msgid ""
+"You measured %(measure).2f %(unit)s and it should be between %"
+"(tolerance_min).2f and %(tolerance_max).2f %(unit)s."
+msgstr ""
+"Sie haben %(measure).2f %(unit)s gemessen und der Wert sollte zwischen %"
+"(tolerance_min).2f und %(tolerance_max).2f %(unit)s liegen."
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/wizard/quality_check_wizard.py:0
+msgid "You must provide a picture before validating"
+msgstr "Sie müssen vor der Validierung ein Bild zur Verfügung stellen"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/stock_picking.py:0
+msgid ""
+"You need to supply a Lot/Serial Number for product:\n"
+"%(products)s"
+msgstr ""
+"Sie müssen eine Los-/Seriennummer für folgende Produkte angeben:\n"
+"%(products)s"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/stock_picking.py:0
+msgid "You still need to do the quality checks!"
+msgstr "Sie müssen noch die Qualitätsprüfung durchführen!"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+msgid "alias"
+msgstr "Alias"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+msgid "e.g. The QA Masters"
+msgstr "z. B. Die QA-Meister"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+msgid "e.g. mycompany.com"
+msgstr "z. B. meinunternehmen.de"
+
+#~ msgid "2023-08-15"
+#~ msgstr "15.08.2023"
+
+#~ msgid "% of Operations"
+#~ msgstr "% der Vorgänge"
+
+#~ msgid "% of Transfers"
+#~ msgstr "% der Transfers"
+
+#~ msgid ""
+#~ "<span attrs=\"{'invisible': [('measure_frequency_type', '=', 'all')]}"
+#~ "\">Every </span>"
+#~ msgstr ""
+#~ "<span attrs=\"{'invisible': [('measure_frequency_type', '=', 'all')]}"
+#~ "\">Alle </span>"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Group By"
+#~ msgstr "Gruppieren nach"
+
+#~ msgid "In #{kanban_getcolorname(record.color.raw_value)}"
+#~ msgstr "In #{kanban_getcolorname(record.color.raw_value)}"
+
+#~ msgid "Partial Transfer Test"
+#~ msgstr "Teilweise Übertragung Test"
+
+#~ msgid "Product Unit of Measure"
+#~ msgstr "Produkteinheit"
+
+#~ msgid "Quality Control Points"
+#~ msgstr "Qualitätsprüfpunkte"
+
+#~ msgid "You measured %.2f %s and it should be between %.2f and %.2f %s."
+#~ msgstr ""
+#~ "Sie haben %.2f %s gemessen, aber es sollte zwischen %.2f und %.2f %s "
+#~ "liegen."

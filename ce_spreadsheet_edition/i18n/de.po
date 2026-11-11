@@ -1,0 +1,1423 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ce_spreadsheet_edition
+#
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 17:47+0000\n"
+"PO-Revision-Date: 2026-07-06 08:27+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
+"ce_spreadsheet_edition/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/view_hook.js:0
+msgid "%(field name)s by %(order)s"
+msgstr "%(field name)s nach %(order)s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/list_init_callback.js:0
+msgid "%(list_name)s (List #%(list_id)s)"
+msgstr "%(list_name)s (Liste Nr. %(list_id)s)"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid "%(name)s (restored from %(timestamp)s)"
+msgstr "%(name)s (wiederhergestellt aus %(timestamp)s)"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/pivot_init_callback.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/plugins/pivot_odoo_insertion.js:0
+msgid "%(pivot_name)s (Pivot #%(pivot_id)s)"
+msgstr "%(pivot_name)s (Pivot #%(pivot_id)s)"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "%(pivot_title)s by %(group_by)s"
+msgstr "%(pivot_title)s nach %(group_by)s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "%(pivot_title)s by %(group_by)s (%(granularity)s)"
+msgstr "%(pivot_title)s nach %(group_by)s (%(granularity)s)"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+msgid "%s (copy)"
+msgstr "%s (Kopie)"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.js:0
+msgid "%s threads"
+msgstr "%s Threads"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/locale_status/locale_status.js:0
+msgid "- dates: %s"
+msgstr "- Daten: %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/locale_status/locale_status.js:0
+msgid "- numbers: %s"
+msgstr "- Zahlen: %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.js:0
+msgid "1 thread"
+msgstr "1 Thread"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.constraint,message:ce_spreadsheet_edition.constraint_spreadsheet_revision_parent_unique
+msgid "A revision based on the same revision already exists"
+msgstr "Eine Revision, die auf derselben Revision basiert, existiert bereits"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_needaction
+msgid "Action Needed"
+msgstr "Aktion erforderlich"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__active
+msgid "Active"
+msgstr "Aktiv"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/odoo_pivot_layout_configurator/odoo_pivot_layout_configurator.xml:0
+msgid "Add"
+msgstr "Hinzufügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/components/cell_thread.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/components/cell_thread_popover.xml:0
+msgid "Add a comment..."
+msgstr "Einen Kommentar hinzufügen ..."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/index.js:0
+msgid "All Comments"
+msgstr "Alle Kommentare"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.xml:0
+msgid "All sheets"
+msgstr "Alle Blätter"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+msgid "Are you sure you want to delete this list?"
+msgstr "Sind Sie sicher, dass Sie diese Liste löschen möchten?"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/edit_list_sorting_section/edit_list_sorting_section.xml:0
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/filter_editor_side_panel.js:0
+msgid ""
+"At least one data source has an invalid model. Please delete it before "
+"editing this global filter."
+msgstr ""
+"Mindestens eine Datenquelle hat ein ungültiges Modell. Bitte löschen Sie es "
+"vor der Bearbeitung des globalen Filters."
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_attachment_count
+msgid "Attachment Count"
+msgstr "Anzahl Anhänge"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__author_id
+msgid "Author"
+msgstr "Autor"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+msgid "Automatically filter on the current user"
+msgstr "Automatisch nach aktuellem Benutzer filtern"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_side_panel.xml:0
+msgid "Back"
+msgstr "Zurück"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_panel.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_grid/spreadsheet_selector_grid.js:0
+msgid "Blank spreadsheet"
+msgstr "Leere Tabellenkalkulation"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/input_dialog/input_dialog.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/global_filter_footer/global_filter_footer.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/ir_menu_selector/ir_menu_selector.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/new_pivot_side_panel/new_pivot_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/restore_version_dialog/restore_version_dialog.xml:0
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.js:0
+msgid ""
+"Changing the pivot definition requires to reload the data. It may take some "
+"time."
+msgstr ""
+"Wenn Sie die Pivot-Definition ändern, müssen Sie die Daten neu laden. Das "
+"kann einige Zeit dauern."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/pivot_missing_cell_dialog/pivot_missing_cell_dialog.xml:0
+msgid "Close"
+msgstr "Schließen"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model,name:ce_spreadsheet_edition.model_spreadsheet_revision
+msgid "Collaborative spreadsheet revision"
+msgstr "Gemeinsame Überarbeitung von Tabellenkalkulationen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.xml:0
+msgid "Columns"
+msgstr "Spalten"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__commands
+msgid "Commands"
+msgstr "Befehle"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/index.js:0
+msgid "Comments"
+msgstr "Kommentare"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/input_dialog/input_dialog.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/ir_menu_selector/ir_menu_selector.xml:0
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Create filter"
+msgstr "Filter erstellen"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__create_uid
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__create_date
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/hooks.js:0
+msgid "Currency"
+msgstr "Währung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_item.xml:0
+msgid "Current"
+msgstr "Aktuell"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard__current_revision_uuid
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard_share__current_revision_uuid
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_mixin__current_revision_uuid
+msgid "Current Revision Uuid"
+msgstr "UUID der aktuellen Revision"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Date"
+msgstr "Datum"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Day"
+msgstr "Tag"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Day of Month"
+msgstr "Tag des Monats"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/boolean_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/date_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/numeric_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/text_filter_editor_side_panel.xml:0
+msgid "Default value"
+msgstr "Standardwert"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.js:0
+msgid "Defer updates"
+msgstr "Aktualisierungen verschieben"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.xml:0
+msgid "Delete Chart"
+msgstr "Diagramm löschen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.xml:0
+msgid "Delete List"
+msgstr "Liste löschen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.xml:0
+msgid "Delete Pivot"
+msgstr "Pivot-Tabelle löschen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/edit_list_sorting_section/edit_list_sorting_section.xml:0
+msgid "Descending"
+msgstr "Absteigend"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/locale_status/locale_status.js:0
+msgid ""
+"Difference between user locale (%(user_locale)s) and spreadsheet locale (%"
+"(spreadsheet_locale)s). This spreadsheet is using the formats below:"
+msgstr ""
+"Unterschied zwischen der Locale des Benutzers (%(user_locale)s) der Locale "
+"der Tabellenkalkulation (%(spreadsheet_locale)s). Diese Tabellenkalkulation "
+"verwendet folgende Formate:"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.xml:0
+msgid "Discard"
+msgstr "Verwerfen"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_ir_websocket__display_name
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__display_name
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_mixin__display_name
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard__display_thumbnail
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard_share__display_thumbnail
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_mixin__display_thumbnail
+msgid "Display Thumbnail"
+msgstr "Vorschaubild anzeigen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/side_panel_domain/side_panel_domain.xml:0
+msgid "Domain"
+msgstr "Bereich"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Download"
+msgstr "Herunterladen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Download as JSON"
+msgstr "Als JSON herunterladen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/filter_editor_store.js:0
+msgid "Duplicated filter label"
+msgstr "Duplizierte Filterbezeichnung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/side_panel_domain/side_panel_domain.xml:0
+msgid "Edit domain"
+msgstr "Bereich bearbeiten"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/related_filters/related_filters.xml:0
+msgid "Field"
+msgstr "Feld"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/boolean_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/date_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/numeric_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/text_filter_editor_side_panel.xml:0
+msgid "Field matching"
+msgstr "Feldübereinstimmung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.xml:0
+msgid "Filter comments"
+msgstr "Kommentare filtern"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/index.js:0
+msgid "Filter properties"
+msgstr "Filtereigenschaften"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/text_filter_editor_side_panel.xml:0
+msgid "Filter value"
+msgstr "Filterwert"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/filter_component.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/index.js:0
+msgid "Filters"
+msgstr "Filter"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_follower_ids
+msgid "Followers"
+msgstr "Follower"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Follower (Partner)"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "From Odoo data"
+msgstr "Aus Odoo-Daten"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "From range"
+msgstr "Aus Bereich"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/filter_component.xml:0
+msgid "Global Filters"
+msgstr "Globale Filter"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/collaborative_status/collaborative_status.js:0
+msgid "Go to %(userName)s"
+msgstr "Zu %(userName)s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.js:0
+msgid "Graph name"
+msgstr "Diagrammname"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__has_message
+msgid "Has Message"
+msgstr "Hat eine Nachricht"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid "Heads up!"
+msgstr "Achtung!"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_ir_websocket__id
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__id
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_mixin__id
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__id
+msgid "ID"
+msgstr "ID"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,help:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,help:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_has_error
+#: model:ir.model.fields,help:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid ""
+"If you go ahead, your document will go back to the version from %s.\n"
+"Any changes you've made after that time will disappear. Ready to proceed?"
+msgstr ""
+"If you gWenn Sie fortfahren, wird Ihr Dokument auf die Version von %s "
+"zurückgesetzt.\n"
+"Alle Änderungen, die Sie nach diesem Zeitpunkt vorgenommen haben, werden "
+"gelöscht. Sind Sie bereit fortzufahren?"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/odoo_line/odoo_line_config_panel.xml:0
+msgid "Include historical data"
+msgstr "Historische Daten einbeziehen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.xml:0
+msgid "Insert"
+msgstr "Einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/pivot_missing_cell_dialog/pivot_missing_cell_dialog.xml:0
+msgid "Insert a pivot cell"
+msgstr "Pivot-Zelle einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/index.js:0
+msgid "Insert comment"
+msgstr "Kommentar einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/assets/graph_view/graph_view.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/pivot.xml:0
+msgid "Insert in Spreadsheet"
+msgstr "In Tabellenkalkulation einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/kanban/kanban_controller.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/assets/list_view/list_controller.js:0
+msgid "Insert in spreadsheet"
+msgstr "In Tabellenkalkulation einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/list_view/insert_list_spreadsheet_menu.xml:0
+msgid "Insert list in spreadsheet"
+msgstr "Liste in Tabellenkalkulation einfügen"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_is_follower
+msgid "Is Follower"
+msgstr "Ist Follower"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/boolean_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/date_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/numeric_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/text_filter_editor_side_panel.xml:0
+msgid "Label"
+msgstr "Bezeichnung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/filter_editor_store.js:0
+msgid "Label is missing."
+msgstr "Bezeichnung fehlt."
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__write_uid
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__write_date
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.xml:0
+msgid "Last updated at"
+msgstr "Zuletzt aktualisiert um"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/ir_ui_menu/index.js:0
+msgid "Link an Odoo menu"
+msgstr "Ein Odoo-Menü verlinken"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/related_filters/related_filters.xml:0
+msgid ""
+"Link each filter to a corresponding field in the data source to enable "
+"filtering."
+msgstr ""
+"Verknüpfen Sie jeden Filter mit einem entsprechenden Feld in der "
+"Datenquelle, um die Filterung zu aktivieren."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/insert_action_link_menu/insert_action_link_menu.xml:0
+msgid "Link menu in spreadsheet"
+msgstr "Menü in Tabellenkalkulation verlinken"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.js:0
+msgid "Link name"
+msgstr "Linkbezeichnung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/odoo_menu/chart_panel.xml:0
+msgid "Link to Odoo menu"
+msgstr "Link zu Odoo-Menü"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/related_filters/related_filters.xml:0
+msgid "Link to the filter"
+msgstr "Mit Filter verknüpfen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/index.js:0
+msgid "List #%s"
+msgstr "Liste Nr. %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.xml:0
+msgid "List Name"
+msgstr "Listenname"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+msgid ""
+"List duplicated. Use the \"Re-insert list\" menu item to insert it in a "
+"sheet."
+msgstr ""
+"Liste dupliziert. Verwenden Sie den Menüpunkt „Liste erneut einfügen“, um "
+"sie in ein Blatt einzufügen."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+msgid "List duplication failed"
+msgstr "Duplizierung der Liste fehlgeschlagen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.js:0
+msgid "List name"
+msgstr "Listenname"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_side_panel.xml:0
+msgid "Load More"
+msgstr "Mehr laden"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/plugins/list_autofill_plugin.js:0
+msgid "Loading..."
+msgstr "Lädt …"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_item.js:0
+msgid "Make a copy"
+msgstr "Kopie erstellen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/restore_version_dialog/restore_version_dialog.xml:0
+msgid "Make a copy instead"
+msgstr "Machen Sie stattdessen eine Kopie"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/filter_editor_side_panel.xml:0
+msgid "Match this filter to a field for each data source"
+msgstr "Diesen Filter mit einem Feld für jede Datenquelle abgleichen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/related_filters_section/related_fitlers_section.js:0
+msgid "Matching %(matching)s / %(total)s filters"
+msgstr "Filter %(matching)s / %(total)s werden abgeglichen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/ir_menu_selector/ir_menu_selector.js:0
+msgid "Menu Items"
+msgstr "Menüpunkte"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_has_error
+msgid "Message Delivery error"
+msgstr "Nachricht mit Zustellungsfehler"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_ids
+msgid "Messages"
+msgstr "Nachrichten"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/plugins/list_autofill_plugin.js:0
+msgid "Missing list #%s"
+msgstr "Fehlende Liste Nr. %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/plugins/pivot_autofill_plugin.js:0
+msgid "Missing pivot"
+msgstr "Fehlende Pivot"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/plugins/pivot_autofill_plugin.js:0
+msgid "Missing pivot #%s"
+msgstr "Fehlende Pivot Nr. %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/new_pivot_side_panel/new_pivot_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.xml:0
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__res_model
+msgid "Model"
+msgstr "Modell"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Month"
+msgstr "Monat"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Month & Year"
+msgstr "Monat & Jahr"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "New"
+msgstr "Neu"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/filter_editor_store.js:0
+msgid "New %s filter"
+msgstr "Neuer Filter %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-python
+#: code:addons/ce_spreadsheet_edition/models/spreadsheet_cell_thread.py:0
+msgid "New Mention in %s"
+msgstr "Neue Erwähnung in %s"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/index.js:0
+msgid "New Odoo Pivot"
+msgstr "Neue Odoo-Pivot-Tabelle"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.xml:0
+msgid "Next"
+msgstr "Weiter"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.xml:0
+msgid "No offset"
+msgstr "Keine Verschiebung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_grid/spreadsheet_selector_grid.xml:0
+msgid "No preview"
+msgstr "Keine Vorschau"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Anzahl Aktionen"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_has_error_counter
+msgid "Number of errors"
+msgstr "Anzahl Fehler"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,help:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Anzahl der Nachrichten, die eine Aktion erfordern"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,help:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Anzahl Nachrichten mit Zustellungsfehler"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.xml:0
+msgid "Number of records to insert into the spreadsheet"
+msgstr ""
+"Anzahl der Datensätze, die in die Tabellenkalkulation eingefügt werden sollen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Numeric"
+msgstr "Numerisch"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/input_dialog/input_dialog.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid "Odoo Spreadsheet"
+msgstr "Odoo Tabellenkalkulation"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/components/cell_thread_popover.xml:0
+msgid "Open all comments"
+msgstr "Alle Kommentare öffnen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/edit_list_sorting_section/edit_list_sorting_section.xml:0
+msgid "Order"
+msgstr "Auftrag"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid "Original data"
+msgstr "Originaldaten"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__parent_revision_id
+msgid "Parent Revision"
+msgstr "Übergeordnete Überprüfung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.xml:0
+msgid "Period offset"
+msgstr "Periodenverschiebung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.js:0
+msgid "Period offset applied to this source"
+msgstr "Auf diese Quelle angewandte Periodenverschiebung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.xml:0
+msgid "Period(s)"
+msgstr "Zeitraum/Zeiträume"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/odoo_pivot_layout_configurator/odoo_pivot_layout_configurator.js:0
+msgid "Pivot contains duplicate groupbys"
+msgstr "Pivot enthält doppelte Groupbys"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.js:0
+msgid "Pivot name"
+msgstr "Pivot-Name"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Pivot table"
+msgstr "Pivot-Tabelle"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/input_dialog/input_dialog.js:0
+msgid "Please enter a valid number."
+msgstr "Bitte geben Sie eine gültige Nummer ein."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/text_filter_editor_side_panel.xml:0
+msgid "Possible values"
+msgstr "Mögliche Werte"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.xml:0
+msgid "Previous"
+msgstr "Vorherige"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Print"
+msgstr "Drucken"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Quarter"
+msgstr "Quartal"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Quarter & Year"
+msgstr "Quartal & Jahr"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__rating_ids
+msgid "Ratings"
+msgstr "Bewertungen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Re-insert dynamic pivot"
+msgstr "Dynamische Pivot-Tabelle erneut einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/abstract_spreadsheet_action.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Re-insert list"
+msgstr "Liste erneut einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Re-insert pivot cell"
+msgstr "Pivot-Zelle erneut einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Re-insert static pivot"
+msgstr "Statische Pivot-Tabelle erneut einfügen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.js:0
+msgid "Re-open this thread"
+msgstr "Diesen Thread erneut öffnen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/plugins/list_autofill_plugin.js:0
+msgid "Record #%(record_number)s"
+msgstr "Datensatz #%(record_number)s"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__res_id
+msgid "Record id"
+msgstr "Datensatz-ID"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.xml:0
+msgid "Records"
+msgstr "Datensätze"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Refresh all data"
+msgstr "Alle Daten aktualisieren"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+msgid "Related model"
+msgstr "Zugehöriges Modell"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Relation"
+msgstr "Beziehung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/global_filter_footer/global_filter_footer.xml:0
+msgid "Remove"
+msgstr "Entfernen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/control_panel/spreadsheet_name.xml:0
+msgid "Rename"
+msgstr "Umbenennen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_field_offset.js:0
+msgid "Requires a selected field"
+msgstr "Erfordert ein ausgewähltes Feld"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.js:0
+msgid "Resolve this thread"
+msgstr "Diesen Thread lösen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.xml:0
+msgid "Resolved"
+msgstr "Gelöst"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_item.js:0
+msgid "Restore this version"
+msgstr "Diese Version wiederherstellen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/text_filter_editor_side_panel.xml:0
+msgid "Restrict values to ranges"
+msgstr "Werte auf Bereiche beschränken"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/relation_filter_editor_side_panel.xml:0
+msgid "Restrict values with a domain"
+msgstr "Werte mit einer Domain beschränken"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__revision_date
+msgid "Revision Date"
+msgstr "Revisionsdatum"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__revision_uuid
+msgid "Revision Uuid"
+msgstr "UUID der Revision"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_revision__name
+msgid "Revision name"
+msgstr "Revisionsname"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.actions.act_window,name:ce_spreadsheet_edition.spreadsheet_revision_action
+#: model:ir.ui.menu,name:ce_spreadsheet_edition.menu_technical_spreadsheet_revision
+msgid "Revisions"
+msgstr "Revisionen"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS-Zustellungsfehler"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/global_filter_footer/global_filter_footer.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/new_pivot_side_panel/new_pivot_side_panel.xml:0
+msgid "Save"
+msgstr "Speichern"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/menu_item_registry.js:0
+msgid "Save as template"
+msgstr "Als Vorlage speichern"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/spreadsheet_navbar/spreadsheet_navbar.xml:0
+msgid "Saved"
+msgstr "Gespeichert"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/spreadsheet_navbar/spreadsheet_navbar.xml:0
+msgid "Saving"
+msgstr "Speichern"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_panel.xml:0
+msgid "Search..."
+msgstr "Suchen ..."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/index.js:0
+msgid "See list properties"
+msgstr "Listeneigenschaften ansehen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/index.js:0
+msgid "See version history"
+msgstr "Versionshistorie ansehen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/ir_menu_selector/ir_menu_selector.js:0
+msgid "Select a menu..."
+msgstr "Wählen Sie ein Menü ..."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/ir_menu_selector/ir_menu_selector.xml:0
+msgid "Select an Odoo menu to link in your spreadsheet"
+msgstr ""
+"Wählen Sie ein Odoo-Menü aus, das Sie in Ihrer Tabelle verlinken möchten"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/actions/abstract_spreadsheet_action.js:0
+msgid "Select the number of records to insert"
+msgstr "Wählen Sie die Anzahl der einzufügenden Datensätze"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Selection"
+msgstr "Auswahl"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/filter_editor/selection_filter_editor_side_panel.xml:0
+msgid "Selection field"
+msgstr "Auswahlfeld"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/index.js:0
+msgid "Set as filter"
+msgstr "Als Filter einstellen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/index.js:0
+msgid "Snapshot"
+msgstr "Snapshot"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/edit_list_sorting_section/edit_list_sorting_section.xml:0
+msgid "Sorting"
+msgstr "Sortierung"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/spreadsheet_cog_menu/spreadsheet_cog_menu.xml:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/components/spreadsheet_navbar/spreadsheet_navbar.xml:0
+#: model:ir.ui.menu,name:ce_spreadsheet_edition.menu_technical_spreadsheet
+msgid "Spreadsheet"
+msgstr "Tabellenkalkulation"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard__spreadsheet_revision_ids
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard_share__spreadsheet_revision_ids
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_mixin__spreadsheet_revision_ids
+msgid "Spreadsheet Revision"
+msgstr "Revision der Tabellenkalkulation"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard__spreadsheet_snapshot
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_dashboard_share__spreadsheet_snapshot
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_mixin__spreadsheet_snapshot
+msgid "Spreadsheet Snapshot"
+msgstr "Snapshot der Tabellenkalkulation"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model,name:ce_spreadsheet_edition.model_spreadsheet_cell_thread
+msgid "Spreadsheet discussion thread"
+msgstr "Diskussionsthread der Tabellenkalkulation"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model,name:ce_spreadsheet_edition.model_spreadsheet_mixin
+msgid "Spreadsheet mixin"
+msgstr "Tabellenkalkulations-Mixin"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_suggestions/global_filter_suggestions.xml:0
+msgid "Suggestions"
+msgstr "Vorschläge"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Text"
+msgstr "Text"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid ""
+"The history of your spreadsheet is corrupted and you are likely missing "
+"recent revisions. This feature cannot be used."
+msgstr ""
+"Die Historie Ihrer Tabellenkalkulation ist beschädigt und Sie verpassen "
+"wahrscheinlich die letzten Überarbeitungen. Diese Funktion kann nicht "
+"verwendet werden."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.js:0
+msgid ""
+"The model (%(model)s) of this chart is not valid (it may have been renamed/"
+"deleted). Please re-insert a new chart."
+msgstr ""
+"Das Modell (%(model)s) dieses Diagramms ist nicht gültig (es könnte "
+"umbenannt oder gelöscht worden sein). Bitte fügen Sie ein neues Diagramm ein."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+msgid ""
+"The model (%(model)s) of this list is not valid (it may have been renamed/"
+"deleted). Please re-insert a new list."
+msgstr ""
+"Das Modell (%(model)s) dieser Liste ist nicht gültig (es könnte umbenannt "
+"oder gelöscht worden sein). Bitte fügen Sie eine neue Liste ein."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.js:0
+msgid ""
+"The model (%(model)s) of this pivot is not valid (it may have been renamed/"
+"deleted). Please re-insert a new pivot."
+msgstr ""
+"Das Modell (%(model)s) dieser Pivot-Tabelle ist nicht gültig (es könnte "
+"umbenannt oder gelöscht worden sein). Bitte fügen Sie eine neue Pivot-"
+"Tabelle ein."
+
+#. module: ce_spreadsheet_edition
+#. odoo-python
+#: code:addons/ce_spreadsheet_edition/models/spreadsheet_mixin.py:0
+msgid ""
+"The operation could not be applied because of a concurrent update. Please "
+"try again."
+msgstr ""
+"Der Vorgang konnte wegen einer gleichzeitigen Aktualisierung nicht "
+"ausgeführt werden. Bitte versuchen Sie es erneut."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/version_history_action.js:0
+msgid ""
+"There are missing revisions that prevent to restore the whole edition "
+"history.\n"
+"\n"
+"Would you like to load the more recent modifications?"
+msgstr ""
+"Es gibt fehlende Revisionen, die verhindern, dass die gesamte "
+"Bearbeitungshistorie wiederhergestellt werden kann.\n"
+"\n"
+"Möchten Sie die neueren Änderungen laden?"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_side_panel.xml:0
+msgid "There are no prior revisions for this spreadsheet."
+msgstr "Es gibt keine vorherigen Revisionen für diese Tabellenkalkulation."
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.constraint,message:ce_spreadsheet_edition.constraint_spreadsheet_revision_initial_unique
+msgid "There can be only one initial revision per spreadsheet"
+msgstr "Es kann nur eine erste Revision pro Tabellenkalkulation geben."
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/o_spreadsheet/icons.xml:0
+msgid "This list is not used"
+msgstr "Diese Liste wird nicht verwendet"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.js:0
+msgid "This pivot is not used"
+msgstr "Diese Pivot-Tabelle wird nicht verwendet"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/comments/side_panel/comment_threads_side_panel.xml:0
+msgid "This sheet"
+msgstr "Dieses Blatt"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/plugins/pivot_autofill_plugin.js:0
+msgid "Total"
+msgstr "Gesamt"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/plugins/pivot_autofill_plugin.js:0
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/components/related_filters/related_filters.xml:0
+msgid "Unlink from the filter"
+msgstr "Vom Filter trennen"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/side_panel/version_history_side_panel.xml:0
+msgid "Version History"
+msgstr "Versionshistorie"
+
+#. module: ce_spreadsheet_edition
+#. odoo-python
+#: code:addons/ce_spreadsheet_edition/models/spreadsheet_mixin.py:0
+msgid "Version restored"
+msgstr "Version wiederhergestellt"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,field_description:ce_spreadsheet_edition.field_spreadsheet_cell_thread__website_message_ids
+msgid "Website Messages"
+msgstr "Website-Nachrichten"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model.fields,help:ce_spreadsheet_edition.field_spreadsheet_cell_thread__website_message_ids
+msgid "Website communication history"
+msgstr "Website-Kommunikationsverlauf"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Week"
+msgstr "Woche"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Week & Year"
+msgstr "Woche & Jahr"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/assets/pivot_view/pivot_view.js:0
+msgid "Year"
+msgstr "Jahr"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/version_history/restore_version_dialog/restore_version_dialog.xml:0
+msgid "Yes, restore"
+msgstr "Ja, wiederherstellen!"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/global_filters/global_filter_side_panel.xml:0
+msgid "Yes/No"
+msgstr "Ja/Nein"
+
+#. module: ce_spreadsheet_edition
+#: model_terms:ir.ui.view,arch_db:ce_spreadsheet_edition.mail_notification_layout
+msgid "mentioned you in a comment:"
+msgstr "hat Sie in einem Kommentar erwähnt:"
+
+#. module: ce_spreadsheet_edition
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/chart/side_panels/common/config_panel.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/list/side_panels/list_details_side_panel.js:0
+#: code:addons/ce_spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.js:0
+msgid "never"
+msgstr "nie"
+
+#. module: ce_spreadsheet_edition
+#: model:ir.model,name:ce_spreadsheet_edition.model_ir_websocket
+msgid "websocket message handling"
+msgstr "Websocket-Nachrichtbearbeitung"
+
+#~ msgid "Models"
+#~ msgstr "Modelle"

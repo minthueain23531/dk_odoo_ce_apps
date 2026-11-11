@@ -1,0 +1,1142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * quality
+#
+# Translators:
+# eriiikgt, 2022
+# Carles Antoli <carlesantoli@hotmail.com>, 2022
+# Susanna Pujol, 2022
+# marcescu, 2022
+# Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2022
+# RGB Consulting <odoo@rgbconsulting.com>, 2022
+# jabelchi, 2022
+# Quim - eccit <quim@eccit.com>, 2022
+# Martin Trigaux, 2022
+# Jonatan Gk, 2022
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2022
+# Harcogourmet, 2022
+# Arnau Ros, 2022
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-14 17:42+0000\n"
+"PO-Revision-Date: 2025-11-16 17:55+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Catalan <https://translate.odoo.com/projects/odoo-19/ce_quality/"
+"ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alert_count
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__alert_count
+msgid "# Quality Alerts"
+msgstr "# Alertes de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__check_count
+msgid "# Quality Checks"
+msgstr "# Comprovació de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_defaults
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
+"Diccionari Python que s'avaluarà per a proporcionar valors per defecte quan "
+"es creïn nous registres per aquest pseudònim."
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_needaction
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_needaction
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_needaction
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_needaction
+msgid "Action Needed"
+msgstr "Acció necessària"
+
+#. module: ce_quality
+#: model:quality.alert.stage,name:ce_quality.quality_alert_stage_2
+msgid "Action Proposed"
+msgstr "Acció proposada"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_ids
+msgid "Activities"
+msgstr "Activitats"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_exception_decoration
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activitat d'excepció de decoració"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_state
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_state
+msgid "Activity State"
+msgstr "Estat de l'activitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_type_icon
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icona de tipus d'activitat"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_check_view_activity
+msgid "Activity view"
+msgstr "Vista d'activitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__additional_note
+msgid "Additional Note"
+msgstr "Nota addicional"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_check__additional_note
+msgid "Additional remarks concerning this check."
+msgstr "Observacions addicionals sobre aquest xec."
+
+#. module: ce_quality
+#: model:res.groups,name:ce_quality.group_quality_manager
+msgid "Administrator"
+msgstr "Administrador"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__done
+msgid "Alert Processed"
+msgstr "Alerta processada"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__alert_ids
+msgid "Alerts"
+msgstr "Alertes"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_id
+msgid "Alias"
+msgstr "Pseudònim"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_contact
+msgid "Alias Contact Security"
+msgstr "Alias del contacte de seguretat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_domain_id
+msgid "Alias Domain"
+msgstr "Àlies de domini"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_domain
+msgid "Alias Domain Name"
+msgstr "Nom del domini d'àlies"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_full_name
+msgid "Alias Email"
+msgstr "Pseudònim de correu"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_name
+msgid "Alias Name"
+msgstr "Pseudònim"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_status
+msgid "Alias Status"
+msgstr "Estat de l'àlies"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_status
+msgid "Alias status assessed on the last message received."
+msgstr "Estat de l'àlies avaluat a l'últim missatge rebut."
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_model_id
+msgid "Aliased Model"
+msgstr "Model amb pseudònim"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+msgid "Archived"
+msgstr "Arxivat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_attachment_count
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_attachment_count
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_attachment_count
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre d'adjunts"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__reason
+msgid "Cause"
+msgstr "Causa"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__check_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__check_ids
+msgid "Check"
+msgstr "Comprovar"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__check_count
+msgid "Check Count"
+msgstr "Comprovar comptador"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__color
+msgid "Color"
+msgstr "Color"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__color
+msgid "Color Index"
+msgstr "Índex de color"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__company_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__company_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__company_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: ce_quality
+#: model:quality.alert.stage,name:ce_quality.quality_alert_stage_1
+msgid "Confirmed"
+msgstr "Confirmat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__control_date
+msgid "Control Date"
+msgstr "Data de control"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__point_id
+msgid "Control Point"
+msgstr "Punt de control"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__action_corrective
+msgid "Corrective Action"
+msgstr "Acció correctiva"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__create_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__create_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Creation Date"
+msgstr "Data de creació"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_bounced_content
+msgid "Custom Bounced Message"
+msgstr "Missatge personalitzat de rebot"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__date_assign
+msgid "Date Assigned"
+msgstr "Data d'assignació"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__date_close
+msgid "Date Closed"
+msgstr "Data de tancament"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_defaults
+msgid "Default Values"
+msgstr "Valors per defecte"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_point__test_type_id
+msgid "Defines the type of the quality control point."
+msgstr "Defineix el tipus de punt de control de qualitat"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+msgid "Describe the quality check to do..."
+msgstr "Descriu la comprovació de qualitat a fer..."
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+msgid "Describe why you need to perform this quality check..."
+msgstr "Descriu per què cal realitzar aquest control de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__description
+msgid "Description"
+msgstr "Descripció"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__display_name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Done"
+msgstr "Fet"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_email
+msgid "Email Alias"
+msgstr "Àlies de correu electrònic"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__email_cc
+msgid "Email cc"
+msgstr "cc de correu electrònic"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_domain
+msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+msgstr "Domini de correu electrònic p.ex. 'example.com' a 'odoo@example.com'"
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_check__quality_state__fail
+msgid "Failed"
+msgstr "Fallits"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__failure_location_id
+msgid "Failure Location"
+msgstr "Ubicació de l'error"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__failure_location_ids
+msgid "Failure Locations"
+msgstr "Ubicació de l'error"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__folded
+msgid "Folded"
+msgstr "Replegat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_follower_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_follower_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_follower_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_follower_ids
+msgid "Followers"
+msgstr "Seguidors"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_partner_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_partner_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_partner_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidors (Partners)"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__activity_type_icon
+#: model:ir.model.fields,help:ce_quality.field_quality_check__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icona Font Awesome p.e. fa-tasks"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Future Activities"
+msgstr "Activitats futures"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__has_message
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__has_message
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__has_message
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__has_message
+msgid "Has Message"
+msgstr "Té un missatge"
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_alert__priority__2
+msgid "High"
+msgstr "Alta"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_parent_thread_id
+msgid ""
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+msgstr ""
+"Id del registre pare que te el pseudònim.(exemple: el projecte que conté el "
+"pseudònim per la creació de tasques)"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_exception_icon
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_exception_icon
+msgid "Icon"
+msgstr "Icona"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__activity_exception_icon
+#: model:ir.model.fields,help:ce_quality.field_quality_check__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icona que indica una activitat d'excepció."
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__message_needaction
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__message_needaction
+#: model:ir.model.fields,help:ce_quality.field_quality_check__message_needaction
+#: model:ir.model.fields,help:ce_quality.field_quality_point__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+"Si està marcat, hi ha nous missatges que requereixen la vostra atenció."
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__message_has_error
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__message_has_sms_error
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__message_has_error
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__message_has_sms_error
+#: model:ir.model.fields,help:ce_quality.field_quality_check__message_has_error
+#: model:ir.model.fields,help:ce_quality.field_quality_check__message_has_sms_error
+#: model:ir.model.fields,help:ce_quality.field_quality_point__message_has_error
+#: model:ir.model.fields,help:ce_quality.field_quality_point__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si està marcat, alguns missatges tenen un error d'entrega."
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_point__failure_location_ids
+msgid ""
+"If quality check fails, a destination location is chosen from this list for\n"
+"- each failed specific product quantity if control is per quantity\n"
+" /- all quantities of a product if control is per product\n"
+" /- all quantities of products in the operation if control is per operation"
+msgstr ""
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_bounced_content
+msgid ""
+"If set, this content will automatically be sent out to unauthorized users "
+"instead of the default message."
+msgstr ""
+"Si està seleccionat, aquest contingut s' enviarà automàticament als usuaris "
+"no autoritzats enlloc del missatge per omissió."
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "In Progress"
+msgstr "En curs"
+
+#. module: ce_quality
+#: model:quality.point.test_type,name:ce_quality.test_type_instructions
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+msgid "Instructions"
+msgstr "Instructions"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_is_follower
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_is_follower
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_is_follower
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_is_follower
+msgid "Is Follower"
+msgstr "És un seguidor"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__write_uid
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__write_date
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Late Activities"
+msgstr "Activitats endarrerides"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_incoming_local
+msgid "Local-part based incoming detection"
+msgstr "Detecció d'entrada basada en la part local"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__lot_ids
+msgid "Lot"
+msgstr "Lot"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__lot_ids
+msgid "Lot/Serial"
+msgstr "Lot/núm. de sèrie"
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_alert__priority__1
+msgid "Low"
+msgstr "Baixa"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_has_error
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_has_error
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_has_error
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_has_error
+msgid "Message Delivery error"
+msgstr "Error d'entrega del missatge"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_ids
+msgid "Messages"
+msgstr "Missatges"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "My Activities"
+msgstr "Les meves activitats"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Venciment de l'activitat"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "My Alerts"
+msgstr "Les meves alertes"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_reason__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: ce_quality
+#. odoo-python
+#: code:addons/ce_quality/models/quality.py:0
+#: model:quality.alert.stage,name:ce_quality.quality_alert_stage_0
+msgid "New"
+msgstr "Nou"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_calendar_event_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Proper esdeveniment del calendari d'activitats"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_date_deadline
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Data límit de la següent activitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_summary
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resum de la següent activitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_type_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipus de la següent activitat"
+
+#. module: ce_quality
+#. odoo-python
+#: code:addons/ce_quality/models/quality.py:0
+msgid ""
+"No quality teams found for this company! Head over to the configuration menu "
+"to create your first quality team."
+msgstr ""
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_alert__priority__0
+msgid "Normal"
+msgstr "Normal"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__note
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__note
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+msgid "Note"
+msgstr "Nota"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+msgid "Notes"
+msgstr "Notes"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_needaction_counter
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_needaction_counter
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_needaction_counter
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'accions"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_has_error_counter
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_has_error_counter
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_has_error_counter
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'errors"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__message_needaction_counter
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__message_needaction_counter
+#: model:ir.model.fields,help:ce_quality.field_quality_check__message_needaction_counter
+#: model:ir.model.fields,help:ce_quality.field_quality_point__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Nombre de missatges que requereixen acció"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__message_has_error_counter
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__message_has_error_counter
+#: model:ir.model.fields,help:ce_quality.field_quality_check__message_has_error_counter
+#: model:ir.model.fields,help:ce_quality.field_quality_point__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de missatges amb error d'entrega"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__picking_type_ids
+msgid "Operation Types"
+msgstr "Tipus operació"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_tree
+msgid "Operations"
+msgstr "Operacions"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_force_thread_id
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
+"Id opcional d'un fil (registre) al que s'adjuntaran tots els missatges "
+"entrants, inclús si no en son respostes. Si s'estableix, es desactivarà "
+"completament la creació de nous registres."
+
+#. module: ce_quality
+#: model:quality.reason,name:ce_quality.reason_other
+msgid "Others"
+msgstr "Altres"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_parent_model_id
+msgid "Parent Model"
+msgstr "Model pare"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_parent_thread_id
+msgid "Parent Record Thread ID"
+msgstr "Id del registre pare"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_parent_model_id
+msgid ""
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"El model pare conte el pseudònim. El model que conte la referència del "
+"pseudònim no és necessàriament el model que es dóna a través del camp "
+"alias_model_id (exemple: projecto (parent_model) i tasca (model))"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: ce_quality
+#: model:quality.reason,name:ce_quality.reason_parts
+msgid "Parts Quality"
+msgstr "Qualitat de les parts"
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_check__quality_state__pass
+msgid "Passed"
+msgstr "Passat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__picking_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__picking_id
+msgid "Picking"
+msgstr "Albarà"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__picture
+msgid "Picture"
+msgstr "Imatge"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_contact
+msgid ""
+"Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+"Política per enviar un missatge en el document utilitzant la passarel·la del "
+"correu.\n"
+"-Tots: Tothom pot publicar\n"
+"-Empreses: Només les empreses autenticades\n"
+"-Seguidors: Només els seguidors del document relacionat o els membres dels "
+"canals següents\n"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__action_preventive
+msgid "Preventive Action"
+msgstr "Acció preventiva"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__priority
+msgid "Priority"
+msgstr "Prioritat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__product_tmpl_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__product_id
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Product"
+msgstr "Producte"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__product_category_ids
+msgid "Product Categories"
+msgstr "Categories de producte"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__product_id
+msgid "Product Variant"
+msgstr "Variant de producte"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__product_ids
+msgid "Products"
+msgstr "Productes"
+
+#. module: ce_quality
+#: model:res.groups.privilege,name:ce_quality.res_groups_privilege_quality
+msgid "Quality"
+msgstr "Qualitat"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_alert
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Quality Alert"
+msgstr "Alerta de qualitat"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_alert_stage
+msgid "Quality Alert Stage"
+msgstr "Etapa d'alerta de qualitat"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_alert_team
+msgid "Quality Alert Team"
+msgstr "Equip d'alerta de qualitat"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_check
+msgid "Quality Check"
+msgstr "Comprovació de qualitat"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_point
+msgid "Quality Control Point"
+msgstr "Punt de control de qualitat"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_point_test_type
+msgid "Quality Control Test Type"
+msgstr "Tipus de prova de control de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_point__product_category_ids
+msgid ""
+"Quality Point will apply to every Products in the selected Product "
+"Categories."
+msgstr ""
+"El punt de qualitat s'aplicarà a tots els productes de les categories de "
+"productes seleccionades."
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_point__product_ids
+msgid "Quality Point will apply to every selected Products."
+msgstr "El punt de qualitat s'aplicarà a tots els productes seleccionats."
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_tag
+msgid "Quality Tag"
+msgstr "Etiqueta de qualitat"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Quality Team"
+msgstr "Equip de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__rating_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__rating_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__rating_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__rating_ids
+msgid "Ratings"
+msgstr "Valoracions"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__alias_force_thread_id
+msgid "Record Thread ID"
+msgstr "Id del registre del fil"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__name
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__name
+msgid "Reference"
+msgstr "Referència"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__user_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__user_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__user_id
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__activity_user_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__activity_user_id
+msgid "Responsible User"
+msgstr "Usuari responsable"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__reason_id
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Root Cause"
+msgstr "Causa principal"
+
+#. module: ce_quality
+#: model:ir.model,name:ce_quality.model_quality_reason
+msgid "Root Cause for Quality Failure"
+msgstr "Causa arrel per un error de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__message_has_sms_error
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__message_has_sms_error
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__message_has_sms_error
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de lliurament SMS"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__sequence
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__sequence
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__sequence
+msgid "Sequence"
+msgstr "Seqüència"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__show_failure_location
+msgid "Show Failure Location"
+msgstr ""
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Show all records whose next activity date is past"
+msgstr ""
+"Mostrar tots els registres amb data de pròxima activitat anterior a l'actual"
+
+#. module: ce_quality
+#: model:quality.alert.stage,name:ce_quality.quality_alert_stage_3
+msgid "Solved"
+msgstr "Solucionat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__stage_id
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Stage"
+msgstr "Etapa"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__quality_state
+msgid "Status"
+msgstr "Estat"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__activity_state
+#: model:ir.model.fields,help:ce_quality.field_quality_check__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estat basat en activitats\n"
+"Vençuda: La data límit ja ha passat\n"
+"Avui: La data de l'activitat és avui\n"
+"Planificat: Activitats futures."
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_tag__name
+msgid "Tag Name"
+msgstr "Nom de l'etiqueta"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__tag_ids
+msgid "Tags"
+msgstr "Etiquetes"
+
+#. module: ce_quality
+#: model:quality.point.test_type,name:ce_quality.test_type_picture
+msgid "Take a Picture"
+msgstr "Fes una foto"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__team_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__team_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__team_id
+msgid "Team"
+msgstr "Equip"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_stage__team_ids
+msgid "Teams"
+msgstr "Equips"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__test_type
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__test_type
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__technical_name
+msgid "Technical name"
+msgstr "Nom tècnic"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__test_type_id
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__test_type_id
+msgid "Test Type"
+msgstr "Tipus de prova"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_model_id
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+msgstr ""
+"El model (Tipus de document d'Odoo) al que correspon aquest pseudònim. "
+"Qualsevol correu electrònic entrant que no sigui resposta a un registre "
+"existent, causarà la creació d'un nou registre d'aquest model (per exemple, "
+"una tasca de projecte)"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__alias_name
+msgid ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+msgstr ""
+"El nom del pseudònim de correu electrònic, per exemple, \"jobs\", si voleu "
+"obtenir els correus mitjançant <jobs@example.odoo.com>"
+
+#. module: ce_quality
+#: model:res.groups,comment:ce_quality.group_quality_manager
+msgid "The quality manager manages the quality process"
+msgstr "El gestor de qualitat gestiona el procés de qualitat"
+
+#. module: ce_quality
+#: model:res.groups,comment:ce_quality.group_quality_user
+msgid "The quality user uses the quality process"
+msgstr "L'usuari de qualitat utilitza el procés de qualitat"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__title
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__title
+msgid "Title"
+msgstr "Títol"
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_check__quality_state__none
+msgid "To do"
+msgstr "Per executar"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_alert_view_search
+msgid "Today Activities"
+msgstr "Activitats d'avui"
+
+#. module: ce_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_form
+#: model_terms:ir.ui.view,arch_db:ce_quality.quality_point_view_tree
+msgid "Type"
+msgstr "Tipus"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__activity_exception_decoration
+#: model:ir.model.fields,help:ce_quality.field_quality_check__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipus d'activitat d'excepció registrada."
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_tag__color
+msgid "Used in the kanban view"
+msgstr "Utilitzat en la vista kanban"
+
+#. module: ce_quality
+#: model:res.groups,name:ce_quality.group_quality_user
+msgid "User"
+msgstr "Usuari"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__partner_id
+msgid "Vendor"
+msgstr "Proveïdor"
+
+#. module: ce_quality
+#: model:ir.model.fields.selection,name:ce_quality.selection__quality_alert__priority__3
+msgid "Very High"
+msgstr "Molt alta"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert__website_message_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_alert_team__website_message_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_check__website_message_ids
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point__website_message_ids
+msgid "Website Messages"
+msgstr "Missatges del lloc web"
+
+#. module: ce_quality
+#: model:ir.model.fields,help:ce_quality.field_quality_alert__website_message_ids
+#: model:ir.model.fields,help:ce_quality.field_quality_alert_team__website_message_ids
+#: model:ir.model.fields,help:ce_quality.field_quality_check__website_message_ids
+#: model:ir.model.fields,help:ce_quality.field_quality_point__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacions del lloc web"
+
+#. module: ce_quality
+#: model:quality.reason,name:ce_quality.reason_wo
+msgid "Work Operation"
+msgstr "Operació de treball"
+
+#. module: ce_quality
+#: model:quality.reason,name:ce_quality.reason_workcenter
+msgid "Workcenter Failure"
+msgstr "Fallida del centre de treball"
+
+#. module: ce_quality
+#: model:ir.model.fields,field_description:ce_quality.field_quality_point_test_type__active
+msgid "active"
+msgstr "actiu"
+
+#~ msgid "Alias domain"
+#~ msgstr "Pseudònim del domini"
+
+#~ msgid "Close"
+#~ msgstr "Tancar"
+
+#~ msgid "Group By"
+#~ msgstr "Agrupar per"
+
+#~ msgid ""
+#~ "No quality team found for this company.\n"
+#~ "Please go to configuration and create one first."
+#~ msgstr ""
+#~ "No s'ha trobat cap equip de qualitat per a aquesta empresa.\n"
+#~ "Si us plau, vagi a configuració i creu un primer."
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Nombre de missatges que requereixen una acció"
+
+#~ msgid "Owner"
+#~ msgstr "Propietari"
+
+#~ msgid "Show all records which has next action date is before today"
+#~ msgstr ""
+#~ "Mostra tots els registres en que la data de següent acció és abans d'avui"
+
+#~ msgid ""
+#~ "The owner of records created upon receiving emails on this alias. If this "
+#~ "field is not set the system will attempt to find the right owner based on "
+#~ "the sender (From) address, or will use the Administrator account if no "
+#~ "system user is found for that address."
+#~ msgstr ""
+#~ "El propietari dels registres creats al rebre correus electrònics amb "
+#~ "aquest pseudònim. Si aquest camp no esta definit, el sistema intentarà de "
+#~ "trobar el propietari correcte basat amb l'adreça de l'emissor (De), o "
+#~ "utilitzarà la compta d'administrador si no es troba un usuari per aquesta "
+#~ "adreça."
+
+#~ msgid "Viewer"
+#~ msgstr "Visor"

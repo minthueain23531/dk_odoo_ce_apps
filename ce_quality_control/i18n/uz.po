@@ -1,0 +1,1843 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ce_quality_control
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "% of the time"
+msgstr "% vaqt"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#, fuzzy
+msgid "%(product_name)s is not in Picking %(picking_name)s"
+msgstr "%(product_name)s %(picking_name)s tanlov ro‘yxatida mavjud emas"
+
+#. module: ce_quality_control
+#: model:ir.actions.report,print_report_name:ce_quality_control.quality_check_report
+#: model:ir.actions.report,print_report_name:ce_quality_control.quality_check_report_internal
+#, fuzzy
+msgid "'Worksheet_%s' % object.name"
+msgstr "'Ish varag‘i_%s' % object.name"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "15.3 cm"
+msgstr "15,3 sm"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domain alias\"/>&amp;nbsp;"
+msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domen taxallusi\" "
+"title=\"Domen taxallusi\"/>&amp;nbsp;"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistics\" title=\"Statistics\"/>"
+msgstr ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistika\" title=\"Statistika\"/>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text text-danger\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text text-danger\">Sifat tekshiruvlari</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text text-success\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text text-success\">Sifat tekshiruvlari</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid ""
+"<span class=\"o_stat_text\">AVG:</span>\n"
+"                        <span class=\"o_stat_text\">STD:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">O‘rtacha:</span>                         <span "
+"class=\"o_stat_text\">Standart og‘ish:</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_product_form_view_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_template_form_view_quality_control
+#, fuzzy
+msgid ""
+"<span class=\"o_stat_text\">Pass:</span>\n"
+"                        <span class=\"o_stat_text\">Fail:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">O‘tdi:</span>                         <span "
+"class=\"o_stat_text\">O‘tmadi:</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Alert</span>"
+msgstr "<span class=\"o_stat_text\">Sifat ogohlantirishi</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_production_lot_view_form
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Alerts:</span>"
+msgstr "<span class=\"o_stat_text\">Sifat ogohlantirishlari:</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Check</span>"
+msgstr "<span class=\"o_stat_text\">Sifat tekshiruvi</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text\">Sifat tekshiruvlari</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>% of products</span>"
+msgstr "<span>Mahsulotlarning % miqdori</span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>Test </span>"
+msgstr "<span>Sinov </span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>from </span>"
+msgstr "<span>dan </span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>to </span>"
+msgstr "<span>gacha </span>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Lot/Serial Number: </strong>"
+msgstr "<strong>Partiya/seriya raqami: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Measure: </strong>"
+msgstr "<strong>O‘lchov: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Notes: </strong>"
+msgstr "<strong>Izohlar: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Product: </strong>"
+msgstr "<strong>Mahsulot: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Test Type: </strong>"
+msgstr "<strong>Sinov turi: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Tested by: </strong>"
+msgstr "<strong>Sinovdan o‘tkazuvchi: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Tested on: </strong>"
+msgstr "<strong>Sinov sanasi: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Transfer: </strong>"
+msgstr "<strong>O‘tkazma: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Warning: </strong>"
+msgstr "<strong>Ogohlantirish: </strong>"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "Accept Emails From"
+msgstr "Xatlarni qabul qilish manzili"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_tag_action
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Yangi teg qo‘shish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__additional_note
+#, fuzzy
+msgid "Additional Note"
+msgstr "Qo‘shimcha izoh"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__additional_note
+#, fuzzy
+msgid "Additional remarks concerning this check."
+msgstr "Ushbu tekshiruv bo‘yicha qo‘shimcha mulohazalar."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_alert_ids
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Alerts"
+msgstr "Ogohlantirishlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__all
+#, fuzzy
+msgid "All"
+msgstr "Barchasi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__pass
+#, fuzzy
+msgid "All checks passed"
+msgstr "Barcha tekshiruvlar muvaffaqiyatli o‘tdi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "All parameters passed."
+msgstr "Barcha parametrlar tasdiqlandi."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__allowed_product_ids
+#, fuzzy
+msgid "Allowed Product"
+msgstr "Ruxsat etilgan mahsulot"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+#, fuzzy
+msgid "Archived"
+msgstr "Arxivlangan"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__average
+#, fuzzy
+msgid "Average"
+msgstr "O‘rtacha"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Back"
+msgstr "Orqaga"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__check_ids
+#, fuzzy
+msgid "Check"
+msgstr "Tekshirish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__check_state
+#, fuzzy
+msgid "Check State"
+msgstr "Tekshiruv holati"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_tree
+#, fuzzy
+msgid "Checked By"
+msgstr "Tekshiruvchi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_tree
+#, fuzzy
+msgid "Checked Date"
+msgstr "Tekshiruv sanasi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__check_ids
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__check_ids
+#, fuzzy
+msgid "Checks"
+msgstr "Tekshiruvlar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+#, fuzzy
+msgid "Checks In Progress"
+msgstr "Jarayondagi tekshiruvlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__company_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_configuration
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+#, fuzzy
+msgid "Configuration"
+msgstr "Sozlamalar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Confirm"
+msgstr "Tasdiqlash"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Confirm Measure"
+msgstr "O‘lchovni tasdiqlash"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_type
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Control Frequency"
+msgstr "Nazorat chastotasi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Control Person"
+msgstr "Nazoratchi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+#, fuzzy
+msgid "Control Point"
+msgstr "Nazorat nuqtasi"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_point_action
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_control_points
+#, fuzzy
+msgid "Control Points"
+msgstr "Nazorat nuqtalari"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__measure_on
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__measure_on
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_on
+#, fuzzy
+msgid "Control per"
+msgstr "uchun nazorat"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_point_kanban
+#, fuzzy
+msgid "Control per:"
+msgstr "Nazorat uchun:"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Correct Measure"
+msgstr "To‘g‘ri o‘lchov"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Corrective Actions"
+msgstr "Tuzatish choralari"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Create Alert"
+msgstr "Ogohlantirish yaratish"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_action_check
+#, fuzzy
+msgid "Create a new quality alert"
+msgstr "Yangi sifat ogohlantirishini yaratish"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_stage_action
+#, fuzzy
+msgid "Create a new quality alert stage"
+msgstr "Yangi sifat nazorati bosqichini yaratish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__create_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__create_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__create_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__create_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__current_check_id
+#, fuzzy
+msgid "Current Check"
+msgstr "Joriy tekshiruv"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__current_revision_uuid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__current_revision_uuid
+#, fuzzy
+msgid "Current Revision Uuid"
+msgstr "Joriy qayta ko‘rib chiqish UUid"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_spreadsheet_template_view_list
+#, fuzzy
+msgid "Data"
+msgstr "Ma'lumotlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_unit__day
+#, fuzzy
+msgid "Days"
+msgstr "Kunlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__uom_id
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__uom_id
+#, fuzzy
+msgid "Default unit of measure used for all stock operations."
+msgstr ""
+"Barcha omborxona operatsiyalari uchun ishlatiladigan standart o‘lchov "
+"birligi."
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_main
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_team
+#, fuzzy
+msgid ""
+"Define Quality Control Points in order to automatically generate\n"
+"              quality checks at the right logistic operation: transfers, "
+"manufacturing orders."
+msgstr ""
+"To‘g‘ri logistika operatsiyalari: o‘tkazmalar va ishlab chiqarish "
+"buyurtmalarida sifat tekshiruvlarini avtomatik ravishda yaratish uchun sifat "
+"nazorati nuqtalarini belgilang."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__testing_percentage_within_lot
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__testing_percentage_within_lot
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__testing_percentage_within_lot
+#, fuzzy
+msgid "Defines the percentage within a lot that should be tested"
+msgstr "Partiyaning qancha foizi tekshirilishi kerakligini belgilaydi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Describe the corrective actions you did..."
+msgstr "Amalga oshirgan tuzatish choralaringizni tavsiflab bering..."
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Describe the preventive actions you did..."
+msgstr "Amalga oshirgan oldini olish choralaringizni tavsiflab bering..."
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Description"
+msgstr "Tavsif"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Description of the issue..."
+msgstr "Muammo tavsifi..."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__is_lot_tested_fractionally
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__is_lot_tested_fractionally
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__is_lot_tested_fractionally
+#, fuzzy
+msgid "Determines if only a fraction of the lot should be tested"
+msgstr ""
+"Partiyaning faqat bir qismi sinovdan o‘tkazilishi kerakligini aniqlaydi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_alert__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet_internal__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__display_thumbnail
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__display_thumbnail
+#, fuzzy
+msgid "Display Thumbnail"
+msgstr "Kichik rasm ko‘rinishi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_spreadsheet_template_view_list
+#, fuzzy
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "Email Alias"
+msgstr "Elektron pochta taxallusi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__product_tracking
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__product_tracking
+#, fuzzy
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Omboringizda saqlanadigan mahsulotning kuzatib borilishini ta'minlang."
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_success__fail
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Fail"
+msgstr "Muvaffaqiyatsiz"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "Failed"
+msgstr "Muvaffaqiyatsiz bo‘ldi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Failed Quantity"
+msgstr "Muvaffaqiyatsiz miqdor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__failure_location_id
+#, fuzzy
+msgid "Failure Location"
+msgstr "Muvaffaqiyatsizlik joyi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__potential_failure_location_ids
+#, fuzzy
+msgid "Failure Locations"
+msgstr "Muvaffaqiyatsizlik joylari"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__failure_message
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__failure_message
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__failure_message
+#, fuzzy
+msgid "Failure Message"
+msgstr "Xatolik xabari"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Frequency"
+msgstr "Chastota"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_unit_value
+#, fuzzy
+msgid "Frequency Unit Value"
+msgstr "Chastota birligi qiymati"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "Future Activities"
+msgstr "Kelgusi faoliyatlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__hide_picking_id
+#, fuzzy
+msgid "Hide Picking"
+msgstr "Tanlashni yashirish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__hide_production_id
+#, fuzzy
+msgid "Hide Production"
+msgstr "Ishlab chiqarishni yashirish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__hide_repair_id
+#, fuzzy
+msgid "Hide Repair"
+msgstr "Ta'mirlashni yashirish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_alert__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_report_quality_control_quality_worksheet_internal__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_move_line__id
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__potential_failure_location_ids
+#, fuzzy
+msgid ""
+"If quality check fails, a destination location is chosen from this list for\n"
+"- each failed specific product quantity if control is per quantity\n"
+" /- all quantities of a product if control is per product\n"
+" /- all quantities of products in the operation if control is per operation"
+msgstr ""
+"Agar sifat nazorati muvaffaqiyatsiz bo‘lsa, ushbu ro‘yxatdan belgilangan joy "
+"tanlanadi: - har bir muvaffaqiyatsiz bo‘lgan aniq mahsulot miqdori uchun, "
+"agar nazorat miqdor bo‘yicha bo‘lsa / - agar nazorat mahsulot bo‘yicha "
+"bo‘lsa, mahsulotning barcha miqdorlari uchun / - agar nazorat operatsiya "
+"bo‘yicha bo‘lsa, operatsiyadagi barcha mahsulotlar miqdorlari uchun"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "In Progress"
+msgstr "Jarayonda"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__move_line_id
+#, fuzzy
+msgid ""
+"In case of Quality Check by Quantity, Move Line on which the Quality Check "
+"applies"
+msgstr ""
+"Miqdor bo‘yicha sifat tekshiruvi holatida, sifat tekshiruvi qo‘llaniladigan "
+"harakat qatori"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Instructions"
+msgstr "Ko‘rsatmalar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__is_last_check
+#, fuzzy
+msgid "Is Last Check"
+msgstr "Oxirgi tekshiruv"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "John Doe"
+msgstr "Jon Doe"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "LT-00045"
+msgstr "LT-00045"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Laptop XYZ"
+msgstr "XYZ noutbuki"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__write_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__write_uid
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__write_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__write_date
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "Late Activities"
+msgstr "So‘nggi faoliyatlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__lot_line_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__lot_line_id
+#, fuzzy
+msgid "Lot Line"
+msgstr "Partiya chizig‘i"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__is_lot_tested_fractionally
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__is_lot_tested_fractionally
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__is_lot_tested_fractionally
+#, fuzzy
+msgid "Lot Tested Fractionally"
+msgstr "Qisman sinovdan o‘tkazilgan partiya"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Lot/SN"
+msgstr "Partiya/Seriya raqami"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_lot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__lot_ids
+#, fuzzy
+msgid "Lot/Serial"
+msgstr "Partiya/Seriya"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__lot_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__lot_name
+#, fuzzy
+msgid "Lot/Serial Number Name"
+msgstr "Partiya/Seriya raqami nomi"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.quality_control_menu_traceability
+#, fuzzy
+msgid "Lots/Serial Numbers"
+msgstr "Partiyalar/Seriya raqamlari"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__tolerance_max
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__tolerance_max
+#, fuzzy
+msgid "Max Tolerance"
+msgstr "Maksimal chegaraviy qiymat"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__measure
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__measure
+#: model:quality.point.test_type,name:ce_quality_control.test_type_measure
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Measure"
+msgstr "O‘lchov"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_unit
+#, fuzzy
+msgid "Measure Frequency Unit"
+msgstr "O‘lchov chastotasi birligi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__measure_success
+#, fuzzy
+msgid "Measure Success"
+msgstr "O‘lchov muvaffaqiyati"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Message If Failure"
+msgstr "Muvaffaqiyatsizlik xabari"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__tolerance_min
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__tolerance_min
+#, fuzzy
+msgid "Min Tolerance"
+msgstr "Minimal chegaraviy qiymat"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Miscellaneous"
+msgstr "Turli xil"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_unit__month
+#, fuzzy
+msgid "Months"
+msgstr "Oylar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__name
+#, fuzzy
+msgid "Name"
+msgstr "Nomi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__nb_checks
+#, fuzzy
+msgid "Nb Checks"
+msgstr "Tekshiruvlar soni"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#, fuzzy
+msgid "New"
+msgstr "Yangi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Next"
+msgstr "Keyingi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__no_checks
+#, fuzzy
+msgid "No checks"
+msgstr "Tekshiruvlar yo‘q"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_spc
+#, fuzzy
+msgid "No data yet!"
+msgstr "Hali ma'lumot yo‘q!"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_success__none
+#, fuzzy
+msgid "No measure"
+msgstr "O‘lchov yo‘q"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_action_report
+#, fuzzy
+msgid "No quality alert"
+msgstr "Sifat ogohlantirishi yo‘q"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_main
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_team
+#, fuzzy
+msgid "No quality check found"
+msgstr "Sifat tekshiruvi topilmadi"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_check_action_report
+#, fuzzy
+msgid "No quality checks"
+msgstr "Sifat tekshiruvlari yo‘q"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_point_action
+#, fuzzy
+msgid "No quality control point found"
+msgstr "Sifat nazorati nuqtasi topilmadi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__norm
+#, fuzzy
+msgid "Norm"
+msgstr "Me'yor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__norm_unit
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__norm_unit
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__norm_unit
+#, fuzzy
+msgid "Norm Unit"
+msgstr "Me'yor birligi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__note
+#, fuzzy
+msgid "Note"
+msgstr "Izoh"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Notes"
+msgstr "Izohlar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+msgid "OK"
+msgstr ""
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__on_demand
+#, fuzzy
+msgid "On-demand"
+msgstr "Talab bo‘yicha"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Open spreadsheet"
+msgstr "Elektron jadvalni ochish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_on__operation
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_on__operation
+#, fuzzy
+msgid "Operation"
+msgstr "Operatsiya"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__measure_on
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__measure_on
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__measure_on
+#, fuzzy
+msgid ""
+"Operation = One quality check is requested at the operation level.\n"
+"                  Product = A quality check is requested per product.\n"
+"                 Quantity = A quality check is requested for each new "
+"product quantity registered, with partial quantity checks also possible."
+msgstr ""
+"Operatsiya = Operatsiya darajasida bitta sifat tekshiruvi talab qilinadi. "
+"Mahsulot = Har bir mahsulot uchun sifat tekshiruvi talab qilinadi. Miqdor = "
+"Ro‘yxatga olingan har bir yangi mahsulot miqdori uchun sifat tekshiruvi "
+"talab qilinadi, qisman miqdor tekshiruvlari ham o‘tkazilishi mumkin."
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_dashboard
+#, fuzzy
+msgid "Overview"
+msgstr "Umumiy ko‘rinish"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Partial Test"
+msgstr "Qisman sinov"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Partner"
+msgstr "Hamkor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_success__pass
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Pass"
+msgstr "O‘tish"
+
+#. module: ce_quality_control
+#: model:quality.point.test_type,name:ce_quality_control.test_type_passfail
+#, fuzzy
+msgid "Pass - Fail"
+msgstr "O‘tdi - O‘tmadi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Passed"
+msgstr "O‘tdi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_check_todo
+#, fuzzy
+msgid "Pending checks"
+msgstr "Kutilayotgan tekshiruvlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__measure_frequency_value
+#, fuzzy
+msgid "Percentage"
+msgstr "Foiz"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__periodical
+#, fuzzy
+msgid "Periodically"
+msgstr "Davriy ravishda"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__picture
+#, fuzzy
+msgid "Picture"
+msgstr "Rasm"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#, fuzzy
+msgid "Picture Uploaded"
+msgstr "Rasm yuklandi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__position_current_check
+#, fuzzy
+msgid "Position Current Check"
+msgstr "Joriy tekshiruv holati"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Preventive Actions"
+msgstr "Oldini olish choralari"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Previous"
+msgstr "Oldingi"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_product_template
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__product_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__product_id
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_on__product
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_on__product
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_move_line
+#, fuzzy
+msgid "Product Moves (Stock Move Line)"
+msgstr "Mahsulot harakati (mahsulot harakati qatori)"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "Mahsulot varianti"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.quality_control_menu_product_variant
+#, fuzzy
+msgid "Product Variants"
+msgstr "Mahsulot variantlari"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.quality_control_menu_product
+#: model:ir.ui.menu,name:ce_quality_control.quality_product_menu_product_template
+#, fuzzy
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "QC-00123"
+msgstr "QC-00123"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_failed
+#, fuzzy
+msgid "Qty Failed"
+msgstr "Muvaffaqiyatsiz miqdor"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_root
+#, fuzzy
+msgid "Quality"
+msgstr "Sifat"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#: model:ir.actions.server,name:ce_quality_control.stock_picking_action_quality_alert
+#: model:ir.model,name:ce_quality_control.model_quality_alert
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_calendar
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_search_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "Quality Alert"
+msgstr "Sifat ogohlantirishi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_graph
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_view_pivot
+#, fuzzy
+msgid "Quality Alert Analysis"
+msgstr "Sifat ogohlantirishi tahlili"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_alert_count
+#, fuzzy
+msgid "Quality Alert Count"
+msgstr "Sifat ogohlantirishlari soni"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__quality_alert_qty
+#, fuzzy
+msgid "Quality Alert Qty"
+msgstr "Sifat ogohlantirishi miqdori"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_stage_action
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_config_alert_stage
+#, fuzzy
+msgid "Quality Alert Stages"
+msgstr "Sifat ogohlantirishi bosqichlari"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_stage_action
+#, fuzzy
+msgid ""
+"Quality Alert stages define the different steps a quality alert should go "
+"through."
+msgstr ""
+"Sifat ogohlantirishi bosqichlari sifat ogohlantirishi o‘tishi kerak bo‘lgan "
+"turli bosqichlarni belgilaydi."
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_action_check
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_action_team
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_alert
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_dashboard_view_kanban
+#, fuzzy
+msgid "Quality Alerts"
+msgstr "Sifat ogohlantirishlari"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_action_report
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_alert_report
+#, fuzzy
+msgid "Quality Alerts Analysis"
+msgstr "Sifat ogohlantirishlari tahlili"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#: model:ir.actions.act_window,name:ce_quality_control.action_quality_check_wizard
+#: model:ir.actions.server,name:ce_quality_control.stock_picking_action_quality_check_on_demand
+#: model:ir.model,name:ce_quality_control.model_quality_check
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_stock_move_line_detailed_operation_tree_inherit_quality
+#, fuzzy
+msgid "Quality Check"
+msgstr "Sifat tekshiruvi"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_report
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_check_report
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_graph
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_pivot
+#, fuzzy
+msgid "Quality Check Analysis"
+msgstr "Sifat tekshiruvi tahlili"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_picking__quality_check_fail
+#, fuzzy
+msgid "Quality Check Fail"
+msgstr "Sifat tekshiruvi muvaffaqiyatsiz"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/wizard/quality_check_wizard.py:0
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Quality Check Failed"
+msgstr "Sifat tekshiruvi muvaffaqiyatsiz"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/wizard/quality_check_wizard.py:0
+#, fuzzy
+msgid "Quality Check Failed for %(product_name)s"
+msgstr "%(product_name)s uchun sifat tekshiruvi muvaffaqiyatsiz"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Quality Check Picture"
+msgstr "Sifat tekshiruvi rasmi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_stock_lot__quality_check_qty
+#, fuzzy
+msgid "Quality Check Qty"
+msgstr "Sifat tekshiruvi miqdori"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Quality Check:"
+msgstr "Sifat tekshiruvi:"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_main
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_picking
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_production_lot
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_team
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_checks
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_form_inherit_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_picking_view_search_inherit_quality
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.stock_production_lot_form_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Quality Checks"
+msgstr "Sifat tekshiruvlari"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_check_action_spc
+#, fuzzy
+msgid "Quality Checks SPC"
+msgstr "Sifat tekshiruvlari SPC"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_control
+#, fuzzy
+msgid "Quality Control"
+msgstr "Sifat nazorati"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_point
+#, fuzzy
+msgid "Quality Control Point"
+msgstr "Sifat nazorati nuqtasi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__quality_control_point_qty
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__quality_control_point_qty
+#, fuzzy
+msgid "Quality Control Point Qty"
+msgstr "Sifat nazorati nuqtasi miqdori"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__quality_fail_qty
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__quality_fail_qty
+#, fuzzy
+msgid "Quality Fail Qty"
+msgstr "Muvaffaqiyatsiz sifat miqdori"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_team_action
+#, fuzzy
+msgid "Quality Overview"
+msgstr "Sifat umumiy ko‘rinishi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_product__quality_pass_qty
+#: model:ir.model.fields,field_description:ce_quality_control.field_product_template__quality_pass_qty
+#, fuzzy
+msgid "Quality Pass Qty"
+msgstr "Muvaffaqiyatli sifat miqdori"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_product_form_view_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.product_template_form_view_quality_control
+#, fuzzy
+msgid "Quality Points"
+msgstr "Sifat nuqtalari"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_spreadsheet_template_action_config
+#: model:ir.ui.menu,name:ce_quality_control.menu_config_quality_spreadsheet_template
+#, fuzzy
+msgid "Quality Spreadsheet Templates"
+msgstr "Sifat jadval shablonlari"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_tag_action
+#: model:ir.ui.menu,name:ce_quality_control.menu_config_quality_tags
+#, fuzzy
+msgid "Quality Tags"
+msgstr "Sifat teglari"
+
+#. module: ce_quality_control
+#: model:ir.actions.act_window,name:ce_quality_control.quality_alert_team_action_config
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_config_alert_team
+#, fuzzy
+msgid "Quality Teams"
+msgstr "Sifat jamoalari"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_alert_team_action
+#, fuzzy
+msgid ""
+"Quality Teams group the different quality alerts/checks\n"
+"              according to the roles (teams) that need them."
+msgstr ""
+"Sifat jamoalari turli xil sifat ogohlantirishlari/tekshiruvlarini ularga "
+"kerak bo‘lgan rollar (jamoalar) bo‘yicha guruhlaydi."
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_report_quality_control_quality_worksheet_internal
+#, fuzzy
+msgid "Quality Worksheet Internal Report"
+msgstr "Sifat ish varag‘i ichki hisoboti"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_report_quality_control_quality_worksheet
+#, fuzzy
+msgid "Quality Worksheet Report"
+msgstr "Sifat ish varag‘i hisoboti"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_check_spreadsheet
+#, fuzzy
+msgid "Quality check spreadsheet"
+msgstr "Sifat tekshiruvi jadvali"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_spreadsheet_template
+#, fuzzy
+msgid "Quality check template spreadsheet"
+msgstr "Sifat tekshiruvi shablon jadvali"
+
+#. module: ce_quality_control
+#: model_terms:ir.actions.act_window,help:ce_quality_control.quality_point_action
+#, fuzzy
+msgid ""
+"Quality control points define the quality checks which should be\n"
+"              performed at each operation, for your different products."
+msgstr ""
+"Sifat nazorati nuqtalari turli mahsulotlaringiz uchun har bir operatsiyada "
+"bajarilishi kerak bo‘lgan sifat tekshiruvlarini belgilaydi."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_line
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_line
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_check__measure_on__move_line
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_on__move_line
+#, fuzzy
+msgid "Quantity"
+msgstr "Miqdor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_failed
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Quantity Failed"
+msgstr "Muvaffaqiyatsiz miqdor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_passed
+#, fuzzy
+msgid "Quantity Passed"
+msgstr "Muvaffaqiyatli miqdor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_tested
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_tested
+#, fuzzy
+msgid "Quantity Tested"
+msgstr "Tekshirilgan miqdor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_tested
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__qty_tested
+#, fuzzy
+msgid "Quantity of product tested within the lot"
+msgstr "Partiya doirasida sinovdan o‘tkazilgan mahsulot miqdori"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_failed
+#, fuzzy
+msgid "Quantity of product that failed the quality check"
+msgstr "Sifat tekshiruvidan o‘tmagan mahsulot miqdori"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_passed
+#, fuzzy
+msgid "Quantity of product that passed the quality check"
+msgstr "Sifat tekshiruvidan o‘tgan mahsulot miqdori"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check__qty_to_test
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_wizard__qty_to_test
+#, fuzzy
+msgid "Quantity of product to test within the lot"
+msgstr "Partiya ichidagi sinovdan o‘tkaziladigan mahsulot miqdori"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__qty_to_test
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__qty_to_test
+#, fuzzy
+msgid "Quantity to Test"
+msgstr "Tekshiriladigan miqdor"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_type__random
+#, fuzzy
+msgid "Randomly"
+msgstr "Tasodifiy"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__name
+#, fuzzy
+msgid "Reference"
+msgstr "Ma'lumotnoma"
+
+#. module: ce_quality_control
+#: model:ir.ui.menu,name:ce_quality_control.menu_quality_reporting
+#, fuzzy
+msgid "Reporting"
+msgstr "Hisobot"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+#, fuzzy
+msgid "Responsible"
+msgstr "Mas'ul shaxs"
+
+#. module: ce_quality_control
+#. odoo-javascript
+#: code:addons/ce_quality_control/static/src/spreadsheet_bundle/quality_check_spreadsheet_action/quality_check_spreadsheet_action.xml:0
+#, fuzzy
+msgid "Save in"
+msgstr "Saqlash joyi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__show_lot_text
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__show_lot_text
+#, fuzzy
+msgid "Show Lot Text"
+msgstr "Partiya matnini ko‘rsatish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__fail
+#, fuzzy
+msgid "Some checks failed"
+msgstr "Ba'zi tekshiruvlar muvaffaqiyatsiz tugadi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__stock_move_line__check_state__in_progress
+#, fuzzy
+msgid "Some checks to be done"
+msgstr "Bajarilishi kerak bo‘lgan tekshiruvlar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__spreadsheet_id
+#: model:quality.point.test_type,name:ce_quality_control.test_type_spreadsheet
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Spreadsheet"
+msgstr "Elektron jadval"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_data
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_data
+#, fuzzy
+msgid "Spreadsheet Data"
+msgstr "Elektron jadval ma'lumotlari"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_file_name
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_file_name
+#, fuzzy
+msgid "Spreadsheet File Name"
+msgstr "Elektron jadval fayli nomi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_revision_ids
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_revision_ids
+#, fuzzy
+msgid "Spreadsheet Revision"
+msgstr "Elektron jadval tahrir raqami"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_snapshot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_snapshot
+#, fuzzy
+msgid "Spreadsheet Snapshot"
+msgstr "Elektron jadval surati"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__spreadsheet_template_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__spreadsheet_template_id
+#, fuzzy
+msgid "Spreadsheet Template"
+msgstr "Elektron jadval andozasi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__spreadsheet_binary_data
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__spreadsheet_binary_data
+#, fuzzy
+msgid "Spreadsheet file"
+msgstr "Elektron jadval fayli"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_stage_view_tree
+#, fuzzy
+msgid "Stage Name"
+msgstr "Bosqich nomi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__standard_deviation
+#, fuzzy
+msgid "Standard Deviation"
+msgstr "Standart chetlanish"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__quality_state
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "Status"
+msgstr "Holat"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_move
+#, fuzzy
+msgid "Stock Move"
+msgstr "Zaxira harakati"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__move_line_id
+#, fuzzy
+msgid "Stock Move Line"
+msgstr "Zaxira harakati qatori"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__check_cell
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__spreadsheet_check_cell
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__check_cell
+#, fuzzy
+msgid "Success cell"
+msgstr "Muvaffaqiyat katakchasi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_tag_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_tag_view_tree
+#, fuzzy
+msgid "Tags"
+msgstr "Teglar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+#, fuzzy
+msgid "Team"
+msgstr "Jamoa"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "Team Name"
+msgstr "Jamoa nomi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_point_kanban
+#, fuzzy
+msgid "Team:"
+msgstr "Jamoa:"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_tree
+#, fuzzy
+msgid "Teams"
+msgstr "Jamoalar"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__test_type
+#, fuzzy
+msgid "Technical name"
+msgstr "Texnik nom"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_search
+#, fuzzy
+msgid "Test Type"
+msgstr "Sinov turi"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_tree
+#, fuzzy
+msgid "Testing % Within Lot"
+msgstr "Partiya ichida tekshirish foizi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__testing_percentage_within_lot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__testing_percentage_within_lot
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_point__testing_percentage_within_lot
+#, fuzzy
+msgid "Testing Percentage Within Lot"
+msgstr "Partiya ichida tekshirish foizi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_check_spreadsheet__check_cell
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__spreadsheet_check_cell
+#: model:ir.model.fields,help:ce_quality_control.field_quality_spreadsheet_template__check_cell
+#, fuzzy
+msgid ""
+"The check is successful if the success cell value is TRUE. If there are "
+"several sheets, specify which one you want to use (e.g. Sheet2!C4). If not "
+"specified, the first sheet is selected by default."
+msgstr ""
+"Agar muvaffaqiyat katakchasi qiymati TRUE bo‘lsa, tekshiruv muvaffaqiyatli "
+"hisoblanadi. Agar bir nechta varaq bo‘lsa, qaysi birini ishlatmoqchi "
+"ekanligingizni ko‘rsating (masalan, Varaq2!C4). Agar ko‘rsatilmasa, birinchi "
+"varaq avtomatik ravishda tanlanadi."
+
+#. module: ce_quality_control
+#: model:ir.model.fields,help:ce_quality_control.field_quality_point__measure_frequency_value
+#, fuzzy
+msgid "The probability of each quality check being generated"
+msgstr "Har bir sifat tekshiruvining yaratilish ehtimolligi"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_spreadsheet__thumbnail
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_spreadsheet_template__thumbnail
+#, fuzzy
+msgid "Thumbnail"
+msgstr "Kichik tasvir"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_alert__title
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__title
+#, fuzzy
+msgid "Title"
+msgstr "Sarlavha"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_search
+#, fuzzy
+msgid "Today Activities"
+msgstr "Bugungi faoliyatlar"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Tolerance"
+msgstr "Chidamlilik"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__product_tracking
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__product_tracking
+#, fuzzy
+msgid "Tracking"
+msgstr "Kuzatish"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_stock_picking
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_tree
+#, fuzzy
+msgid "Transfer"
+msgstr "O‘tkazma"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Transfer-987"
+msgstr "O‘tkazma-987"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_check_view_form
+#, fuzzy
+msgid "Type"
+msgstr "Tur"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_point_kanban
+#, fuzzy
+msgid "Type:"
+msgstr "Turi:"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__uom_id
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__uom_id
+#, fuzzy
+msgid "Unit"
+msgstr "Birlik"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_point_view_form_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Unit of Measure"
+msgstr "O‘lchov birligi"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality_spreadsheet_template.py:0
+msgid "Untitled spreadsheet"
+msgstr ""
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Validate"
+msgstr "Tasdiqlash"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Value near threshold."
+msgstr "Chegaraga yaqin qiymat."
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_spreadsheet_template_view_list
+#, fuzzy
+msgid "Visible to all"
+msgstr "Hammaga ko‘rinadigan"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.worksheet_page
+#, fuzzy
+msgid "Visual Check"
+msgstr "Vizual tekshiruv"
+
+#. module: ce_quality_control
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check__warning_message
+#: model:ir.model.fields,field_description:ce_quality_control.field_quality_check_wizard__warning_message
+#, fuzzy
+msgid "Warning Message"
+msgstr "Ogohlantirish xabari"
+
+#. module: ce_quality_control
+#: model:ir.model.fields.selection,name:ce_quality_control.selection__quality_point__measure_frequency_unit__week
+#, fuzzy
+msgid "Weeks"
+msgstr "Haftalar"
+
+#. module: ce_quality_control
+#: model:ir.model,name:ce_quality_control.model_quality_check_wizard
+#, fuzzy
+msgid "Wizard for Quality Check Pop Up"
+msgstr "Sifat tekshiruvi uchun yordamchi oyna"
+
+#. module: ce_quality_control
+#: model:ir.actions.report,name:ce_quality_control.quality_check_report
+#, fuzzy
+msgid "Worksheet Report - External (PDF)"
+msgstr "Ish varag‘i hisoboti - Tashqi (PDF)"
+
+#. module: ce_quality_control
+#: model:ir.actions.report,name:ce_quality_control.quality_check_report_internal
+#, fuzzy
+msgid "Worksheet Report - Internal (PDF)"
+msgstr "Ish varag‘i hisoboti - Ichki (PDF)"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Write quality check notes..."
+msgstr "Sifat tekshiruvi izohlarini yozing..."
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/quality.py:0
+#, fuzzy
+msgid ""
+"You measured %(measure).2f %(unit)s and it should be between %"
+"(tolerance_min).2f and %(tolerance_max).2f %(unit)s."
+msgstr ""
+"Siz %(measure).2f %(unit)s o‘lchadingiz, bu esa %(tolerance_min).2f va %"
+"(tolerance_max).2f %(unit)s orasida bo‘lishi kerak."
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/wizard/quality_check_wizard.py:0
+#, fuzzy
+msgid "You must provide a picture before validating"
+msgstr "Tasdiqlashdan oldin rasm taqdim etishingiz shart"
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/stock_picking.py:0
+msgid ""
+"You need to supply a Lot/Serial Number for product:\n"
+"%(products)s"
+msgstr ""
+
+#. module: ce_quality_control
+#. odoo-python
+#: code:addons/ce_quality_control/models/stock_picking.py:0
+#, fuzzy
+msgid "You still need to do the quality checks!"
+msgstr "Sifat tekshiruvlarini hali bajarishingiz kerak!"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "alias"
+msgstr "taxallus"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "e.g. The QA Masters"
+msgstr "masalan, Sifat nazorati ustalari"
+
+#. module: ce_quality_control
+#: model_terms:ir.ui.view,arch_db:ce_quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "e.g. mycompany.com"
+msgstr "masalan, mycompany.com"
