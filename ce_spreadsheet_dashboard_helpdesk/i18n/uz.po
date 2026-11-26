@@ -1,0 +1,269 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ce_spreadsheet_dashboard_helpdesk
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:49+0000\n"
+"PO-Revision-Date: 2025-10-08 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Agent"
+msgstr "Agent"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Cancelled"
+msgstr "Bekor qilingan"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Changes Requested"
+msgstr "O‘zgarishlar so‘raldi"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Current"
+msgstr "Joriy"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Customer"
+msgstr "Mijoz"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Customer Care"
+msgstr "Mijozlarga xizmat ko‘rsatish"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#: model:spreadsheet.dashboard,name:ce_spreadsheet_dashboard_helpdesk.ce_spreadsheet_dashboard_helpdesk
+#, fuzzy
+msgid "Helpdesk"
+msgstr "Yordam xizmati"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Hours to assign"
+msgstr "Tayinlash vaqti"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Hours to close"
+msgstr "Yopish vaqti"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Hours to respond"
+msgstr "Javob berish vaqti"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "In Progress"
+msgstr "Jarayonda"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "KPI"
+msgstr "KPI"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "New"
+msgstr "Yangi"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#, fuzzy
+msgid "Period"
+msgstr "Davr"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Previous"
+msgstr "Oldingi"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Rating"
+msgstr "Reyting"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#, fuzzy
+msgid "Tags"
+msgstr "Teglar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Team"
+msgstr "Jamoa"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Ticket Stage"
+msgstr "Chiptaning bosqichi"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Ticket Tags"
+msgstr "Chipta teglari"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Tickets"
+msgstr "Chiptalar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Tickets by Stage"
+msgstr "Bosqich bo‘yicha chiptalar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Tickets by Tags"
+msgstr "Teglar bo‘yicha chiptalar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Time to Assign"
+msgstr "Tayinlash vaqti"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Time to Close"
+msgstr "Yopish vaqti"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Time to Respond"
+msgstr "Javob berish vaqti"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Assignees"
+msgstr "Eng ko‘p tayinlangan xodimlar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Customers"
+msgstr "Eng ko‘p murojaat qilgan mijozlar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Teams"
+msgstr "Eng yaxshi jamoalar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "VIP Support"
+msgstr "VIP qo‘llab-quvvatlash"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "last period"
+msgstr "o‘tgan davr"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+#, fuzzy
+msgid "since last period"
+msgstr "o‘tgan davrdan beri"

@@ -1,0 +1,601 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ce_website_helpdesk
+#
+# Translators:
+# Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2022
+# Odoo Thaidev <odoothaidev@gmail.com>, 2022
+# Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2022
+# Martin Trigaux, 2022
+# Wichanon Jamwutthipreecha, 2022
+# "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Nusara Boonma <nuboo@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2026-06-06 13:37+0000\n"
+"Last-Translator: Nusara Boonma <nuboo@odoo.com>\n"
+"Language-Team: Thai <https://translate.odoo.com/projects/odoo-19/"
+"ce_website_helpdesk/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar
+msgid "<i class=\"oi oi-chevron-left me-2\"/>Back to help"
+msgstr "<i class=\"oi oi-chevron-left me-2\"/>กลับไปที่ช่วยเหลือ"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Ask Your Question</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid "<span class=\"s_website_form_label_content\">Attachment</span>"
+msgstr "<span class=\"s_website_form_label_content\">เอกสารแนบ</span>"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid "<span class=\"s_website_form_label_content\">Company Name</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Email Address</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Full Name</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid "<span class=\"s_website_form_label_content\">Helpdesk Team</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Message Subject</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
+msgstr "<span class=\"s_website_form_label_content\">หมายเลขโทรศัพท์</span>"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar
+msgid "<span class=\"text-muted\">Results for</span>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team
+msgid "About our team"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_date
+msgid "All"
+msgstr "ทั้งหมด"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_tag
+msgid "All Tags"
+msgstr "แท็กทั้งหมด"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_type
+msgid "All Types"
+msgstr "ทุกประเภท"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_date
+msgid "All dates"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/xml/ce_website_helpdesk.xml:0
+msgid "All results"
+msgstr "ผลลัพธ์ทั้งหมด"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_tag
+msgid "All tags"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_type
+msgid "All types"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Ask Your Question"
+msgstr "ถามคำถามของคุณ"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Attach File"
+msgstr "แนบไฟล์"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.search_results
+msgid "Back to help"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_date
+msgid "By Date"
+msgstr "ตามวันที่"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_tag
+msgid "By Tags"
+msgstr "ตามแท็ก"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_type
+msgid "By Type"
+msgstr "ตามประเภท"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__can_publish
+msgid "Can Publish"
+msgstr "สามารถเผยแพร่"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.footer
+msgid "Can't find your answer?"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_ticket__partner_company_name
+msgid "Company Name"
+msgstr "ชื่อบริษัท"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.footer
+msgid "Contact Us"
+msgstr "ติดต่อเรา"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.footer
+msgid "Contact us"
+msgstr "ติดต่อเรา"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.helpdesk_all_team
+msgid "Contact us <i class=\"oi oi-arrow-right\"/>"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model:ir.model,website_form_label:ce_website_helpdesk.model_helpdesk_ticket
+msgid "Create a Ticket"
+msgstr "สร้างทิกเก็ต"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/__init__.py:0
+msgid "Customer Care (Public)"
+msgstr "ฝ่ายดูแลลูกค้า (สาธารณะ)"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team
+msgid ""
+"DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS ALL HELPDESK TEAMS"
+msgstr "วางบล็อกสำเร็จรูปที่นี่เพื่อให้สามารถใช้ได้ทั่วทั้งทีม Helpdesk ทั้งหมด"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.knowledge_base
+msgid ""
+"DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS THE KNOWLEDGE PAGE "
+"OF ALL HELPDESK TEAMS"
+msgstr "วางบล็อกสำเร็จรูปที่นี่เพื่อให้สามารถเข้าถึงได้ทั่วทั้งหน้าความรู้ของทีม Helpdesk ทั้งหมด"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_ticket__display_name
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_website__display_name
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_website_menu__display_name
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_website_page__display_name
+msgid "Display Name"
+msgstr "แสดงชื่อ"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Email Address"
+msgstr "ที่อยู่อีเมล"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_date
+msgid "Filter by date"
+msgstr "กรองตามวันที่"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_tag
+msgid "Filter by tags"
+msgstr "ตัวกรองตามแท็ก"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.navbar_search_type
+msgid "Filter by type"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Full Name"
+msgstr "ชื่อเต็ม"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submited
+msgid "Go to Homepage"
+msgstr "ไปที่หน้าแรก"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/models/helpdesk.py:0
+#: code:addons/ce_website_helpdesk/models/website.py:0
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/controllers/main.py:0
+msgid "Helpdesk"
+msgstr "Helpdesk"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/models/website.py:0
+msgid "Helpdesk Customer Satisfaction"
+msgstr "ความพึงพอใจของลูกค้าต่อฝ่ายช่วยเหลือ"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+#: model:ir.model,name:ce_website_helpdesk.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "ทีมดูแลช่วยเหลือ"
+
+#. module: ce_website_helpdesk
+#: model:ir.model,name:ce_website_helpdesk.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "ทิกเก็ตช่วยเหลือ"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.knowledge_base
+msgid "How can we help you?"
+msgstr "เราจะช่วยคุณได้อย่างไร?"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_ticket__id
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_website__id
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_website_menu__id
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_website_page__id
+msgid "ID"
+msgstr "ไอดี"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.helpdesk_all_team
+msgid "Image"
+msgstr "รูปภาพ"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__is_published
+msgid "Is Published"
+msgstr "เผยแพร่"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/controllers/main.py:0
+msgid "Last Month"
+msgstr "เดือนที่แล้ว"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/controllers/main.py:0
+msgid "Last Week"
+msgstr "สัปดาห์ที่แล้ว"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/controllers/main.py:0
+msgid "Last Year"
+msgstr "ปีที่แล้ว"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Message Subject"
+msgstr "หัวเรื่องของข้อความ"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.search_results
+msgid "No results found for"
+msgstr "ไม่พบผลลัพธ์สำหรับ"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/xml/ce_website_helpdesk.xml:0
+msgid "No results found. Please try another search."
+msgstr "ไม่พบผลลัพธ์ โปรดลองค้นหาอีกครั้ง"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/controllers/main.py:0
+msgid "Other Information"
+msgstr "ข้อมูลอื่นๆ"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.footer
+msgid "Our support team is here to help."
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submited
+msgid "Our team will get right on it."
+msgstr "ทีมงานของเราจะดำเนินการทันที"
+
+#. module: ce_website_helpdesk
+#: model:ir.model,name:ce_website_helpdesk.model_website_page
+msgid "Page"
+msgstr "เพจ"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Phone Number"
+msgstr "หมายเลขโทรศัพท์"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.search_results
+msgid "Please try another search  or"
+msgstr "โปรดลองค้นหาอีกครั้ง หรือ"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__is_seo_optimized
+msgid "SEO optimized"
+msgstr "ปรับ SEO ให้เหมาะสม"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.knowledge_base
+msgid "Search for articles, best practices and more..."
+msgstr "ค้นหาบทความ แนวปฏิบัติที่ดีที่สุด และอื่นๆ..."
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.helpdesk_all_team
+msgid "Select your Team for help"
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__seo_name
+msgid "Seo name"
+msgstr "ชื่อ Seo"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid "Submit Ticket"
+msgstr "ส่งทิกเก็ต"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submit_form
+msgid "Submit a Ticket"
+msgstr "ส่งทิกเก็ต"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submited
+msgid "Thank you!"
+msgstr "ขอบคุณ"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_edit_menu.js:0
+msgid ""
+"The %s URL is reserved for the helpdesk team with the same name. \n"
+"                        To use it, please enable the 'website form' feature "
+"on that team instead."
+msgstr ""
+"URL %s ถูกสงวนไว้สำหรับทีมช่วยเหลือที่มีชื่อเดียวกัน \n"
+"                        หากต้องการใช้ โปรดเปิดใช้งานฟีเจอร์ 'แบบฟอร์มเว็บไซต์' "
+"ในทีมนั้นแทน"
+
+#. module: ce_website_helpdesk
+#. odoo-python
+#: code:addons/ce_website_helpdesk/models/helpdesk.py:0
+msgid "The companies of the team and the website should match."
+msgstr "บริษัทในทีมงานและเว็บไซต์ควรตรงกัน"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,help:ce_website_helpdesk.field_helpdesk_team__website_absolute_url
+msgid "The full absolute URL to access the document through the website."
+msgstr "URL แบบเต็มเพื่อเข้าถึงเอกสารผ่านทางเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,help:ce_website_helpdesk.field_helpdesk_team__website_url
+msgid "The full relative URL to access the document through the website."
+msgstr "URL สัมพัทธ์เต็มในการเข้าถึงเอกสารผ่านทางเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#. odoo-javascript
+#: code:addons/ce_website_helpdesk/static/src/js/website_helpdesk_edit_menu.js:0
+msgid ""
+"This URL is reserved for the helpdesk teams with 'website form' feature "
+"enabled."
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submited
+msgid "Ticket #"
+msgstr "ทิกเก็ต #"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_published
+msgid "Visible on current website"
+msgstr "ปรากฏบนเว็บไซต์ปัจจุบัน"
+
+#. module: ce_website_helpdesk
+#: model:ir.model,name:ce_website_helpdesk.model_website
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_id
+msgid "Website"
+msgstr "เว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_absolute_url
+msgid "Website Absolute URL"
+msgstr "URL สัมบูรณ์ของเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model,name:ce_website_helpdesk.model_website_menu
+msgid "Website Menu"
+msgstr "เมนูเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_url
+msgid "Website URL"
+msgstr "เว็บไซต์ URL"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_meta_description
+msgid "Website meta description"
+msgstr "คำอธิบายเนื้อหาเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "คำสำคัญในคำอธิบายเนื้อหาเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_meta_title
+msgid "Website meta title"
+msgstr "ชื่อข้อมูลเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model:ir.model.fields,field_description:ce_website_helpdesk.field_helpdesk_team__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "รูป Opengraph บนเว็บไซต์"
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.ticket_submited
+msgid "Your ticket has been sent."
+msgstr ""
+
+#. module: ce_website_helpdesk
+#: model_terms:ir.ui.view,arch_db:ce_website_helpdesk.search_results
+msgid "go back to help page"
+msgstr "กลับไปที่หน้าช่วยเหลือ"
+
+#~ msgid "<b>About our team</b>"
+#~ msgstr "<b>เกี่ยวกับทีม</b>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Description</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">รายละเอียด</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_website_form_label_content\">Subject</span>\n"
+#~ "                                            <span "
+#~ "class=\"s_website_form_mark\"> *</span>"
+#~ msgstr ""
+#~ "<span class=\"s_website_form_label_content\">หัวข้อ</span>\n"
+#~ "                                            <span "
+#~ "class=\"s_website_form_mark\"> *</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_website_form_label_content\">Your Email</span>\n"
+#~ "                                            <span "
+#~ "class=\"s_website_form_mark\"> *</span>"
+#~ msgstr ""
+#~ "<span class=\"s_website_form_label_content\">อีเมลของคุณ</span>\n"
+#~ "                                            <span "
+#~ "class=\"s_website_form_mark\"> *</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_website_form_label_content\">Your Name</span>\n"
+#~ "                                            <span "
+#~ "class=\"s_website_form_mark\"> *</span>"
+#~ msgstr ""
+#~ "<span class=\"s_website_form_label_content\">ชื่อของคุณ</span>\n"
+#~ "                                            <span "
+#~ "class=\"s_website_form_mark\"> *</span>"
+
+#~ msgid "Attachment"
+#~ msgstr "การแนบ"
+
+#~ msgid "Customer Care"
+#~ msgstr "การดูแลลูกค้า"
+
+#~ msgid "Date Filter"
+#~ msgstr "ตัวกรองวันที่"
+
+#~ msgid "Description"
+#~ msgstr "คำอธิบาย"
+
+#~ msgid "Form"
+#~ msgstr "ฟอร์ม"
+
+#~ msgid "Help Center Page"
+#~ msgstr "หน้าศูนย์ช่วยเหลือ"
+
+#~ msgid "Subject"
+#~ msgstr "หัวเรื่อง"
+
+#~ msgid "Tags Filter"
+#~ msgstr "ตัวกรองแท็ก"
+
+#~ msgid "The full URL to access the document through the website."
+#~ msgstr "URL แบบเต็มเพื่อเข้าถึงเอกสารผ่านเว็บไซต์"
+
+#~ msgid "Type Filter"
+#~ msgstr "ตัวกรองประเภท"
+
+#~ msgid "URL to Submit Issue"
+#~ msgstr "URL สำหรับส่งปัญหา"
+
+#~ msgid "Your Email"
+#~ msgstr "อีเมลของคุณ"
+
+#~ msgid "Your Name"
+#~ msgstr "ชื่อของคุณ"
+
+#~ msgid "Your Ticket Number is"
+#~ msgstr "เลขที่ทิกเก็ตของคุณคือ"

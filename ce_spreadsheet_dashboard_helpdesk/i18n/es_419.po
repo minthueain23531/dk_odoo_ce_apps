@@ -1,0 +1,232 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ce_spreadsheet_dashboard_helpdesk
+#
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:48+0000\n"
+"PO-Revision-Date: 2025-09-17 09:38+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
+"odoo-19/ce_spreadsheet_dashboard_helpdesk/es_419/>\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Agent"
+msgstr "Agente"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Changes Requested"
+msgstr "Cambios solicitados"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Current"
+msgstr "Actual"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Customer Care"
+msgstr "Atención al cliente"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#: model:spreadsheet.dashboard,name:ce_spreadsheet_dashboard_helpdesk.ce_spreadsheet_dashboard_helpdesk
+msgid "Helpdesk"
+msgstr "Soporte al cliente"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Hours to assign"
+msgstr "Horas por asignar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Hours to close"
+msgstr "Horas para cerrar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Hours to respond"
+msgstr "Horas para responder"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "In Progress"
+msgstr "En progreso"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "KPI"
+msgstr "KPI"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "New"
+msgstr "Nuevo"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+msgid "Period"
+msgstr "Periodo"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Previous"
+msgstr "Anterior"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Rating"
+msgstr "Calificación"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Team"
+msgstr "Equipo"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Ticket Stage"
+msgstr "Etapa de ticket"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Ticket Tags"
+msgstr "Etiquetas de ticket"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Tickets"
+msgstr "Tickets"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Tickets by Stage"
+msgstr "Tickets por etapa"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Tickets by Tags"
+msgstr "Tickets por etiquetas"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Time to Assign"
+msgstr "Tiempo por asignar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Time to Close"
+msgstr "Tiempo para cerrar"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Time to Respond"
+msgstr "Tiempo para responder"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Top Assignees"
+msgstr "Asignados principales"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Top Customers"
+msgstr "Mejores clientes"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "Top Teams"
+msgstr "Mejores equipos"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "VIP Support"
+msgstr "Soporte VIP"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "last period"
+msgstr "último periodo"
+
+#. module: ce_spreadsheet_dashboard_helpdesk
+#. odoo-javascript
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_dashboard.json:0
+#: code:addons/ce_spreadsheet_dashboard_helpdesk/data/files/helpdesk_sample_dashboard.json:0
+msgid "since last period"
+msgstr "desde el último periodo"
